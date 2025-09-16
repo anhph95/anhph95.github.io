@@ -25,12 +25,12 @@ social:
 markdown: kramdown
 highlighter: rouge
 
-# # Plugins for better features
-# plugins:
-#   - jekyll-seo-tag        # Adds SEO-friendly meta tags
-#   - jekyll-sitemap        # Generates a sitemap.xml
-#   - jekyll-feed           # Generates RSS feed
-#   - jekyll-paginate       # Adds pagination support
+# Plugins for better features
+plugins:
+  - jekyll-seo-tag        # Adds SEO-friendly meta tags
+  - jekyll-sitemap        # Generates a sitemap.xml
+  - jekyll-feed           # Generates RSS feed
+  - jekyll-paginate       # Adds pagination support
 
 # Defaults for posts
 defaults:
@@ -41,10 +41,10 @@ defaults:
       layout: "post"
       author: "Anh H. Pham"
 
-# # Exclusions
-# exclude:
-#   - README.md
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor
+# Exclusions
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
