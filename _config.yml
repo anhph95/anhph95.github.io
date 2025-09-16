@@ -1,3 +1,53 @@
+title: "Anh H. Pham's Page"
+description: "Documentation of my science adventures."
 theme: jekyll-theme-tactile
-title: Anh H. Pham's Page
-description: My science adventures.
+
+# Basic site settings
+url: "https://anhph95.github.io"           # Replace with your actual GitHub Pages URL
+baseurl: ""                                # Leave blank if deploying at root
+
+# Author info
+author:
+  name: "Anh H. Pham"
+  bio: "Oceanographer, Biologist, Statistician, and coding enthusiast."
+  email: "anh.pham@whoi.edu"
+  orcid: "https://orcid.org/0000-0001-7827-6558"
+  github_username: "anhph95"
+  linkedin_username: "huyanhpham"  # Optional
+
+# Social links (will show up in metadata and some themes)
+social:
+  orcid: "https://orcid.org/0000-0001-7827-6558"
+  github: "https://github.com/anhph95"
+  linkedin: "https://www.linkedin.com/in/huyanhpham/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins for better features
+plugins:
+  - jekyll-seo-tag        # Adds SEO-friendly meta tags
+  - jekyll-sitemap        # Generates a sitemap.xml
+  - jekyll-feed           # Generates RSS feed
+  - jekyll-paginate       # Adds pagination support
+
+# SEO and analytics
+google_analytics: UA-XXXXXXXXX-X   # Replace with your Google Analytics ID (optional)
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Anh H. Pham"
+
+# Exclusions
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
