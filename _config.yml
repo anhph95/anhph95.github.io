@@ -2,9 +2,9 @@ title: "Anh H. Pham's Page"
 description: "Documentation of my science adventures."
 theme: jekyll-theme-tactile
 
-# Basic site settings
-url: "https://anhph95.github.io"           # Replace with your actual GitHub Pages URL
-baseurl: ""                                # Leave blank if deploying at root
+# # Basic site settings
+# url: "https://anhph95.github.io"           # Replace with your actual GitHub Pages URL
+# baseurl: ""                                # Leave blank if deploying at root
 
 # Author info
 author:
@@ -21,9 +21,9 @@ social:
   github: "https://github.com/anhph95"
   linkedin: "https://www.linkedin.com/in/huyanhpham/"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+# # Build settings
+# markdown: kramdown
+# highlighter: rouge
 
 # # Plugins for better features
 # plugins:
@@ -32,19 +32,19 @@ highlighter: rouge
 #   - jekyll-feed           # Generates RSS feed
 #   - jekyll-paginate       # Adds pagination support
 
-# Defaults for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Anh H. Pham"
+# # Defaults for posts
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       author: "Anh H. Pham"
 
-# Exclusions
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+# # Exclusions
+# exclude:
+#   - README.md
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
