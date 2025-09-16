@@ -2,9 +2,9 @@ theme: jekyll-theme-tactile
 title: "Anh H. Pham's Page"
 description: "Documentation of my science adventures."
 
-# # Basic site settings
-# url: "https://anhph95.github.io"           # Replace with your actual GitHub Pages URL
-# baseurl: ""                                # Leave blank if deploying at root
+# Basic site settings
+url: "https://anhph95.github.io/"           # Replace with your actual GitHub Pages URL
+baseurl: ""                                # Leave blank if deploying at root
 
 # Author info
 author:
