@@ -25,15 +25,12 @@ social:
 markdown: kramdown
 highlighter: rouge
 
-# Plugins for better features
-plugins:
-  - jekyll-seo-tag        # Adds SEO-friendly meta tags
-  - jekyll-sitemap        # Generates a sitemap.xml
-  - jekyll-feed           # Generates RSS feed
-  - jekyll-paginate       # Adds pagination support
-
-# SEO and analytics
-google_analytics: UA-XXXXXXXXX-X   # Replace with your Google Analytics ID (optional)
+# # Plugins for better features
+# plugins:
+#   - jekyll-seo-tag        # Adds SEO-friendly meta tags
+#   - jekyll-sitemap        # Generates a sitemap.xml
+#   - jekyll-feed           # Generates RSS feed
+#   - jekyll-paginate       # Adds pagination support
 
 # Defaults for posts
 defaults:
