@@ -15,11 +15,11 @@ author:
   github_username: "anhph95"
   linkedin_username: "huyanhpham"  # Optional
 
-# # Social links (will show up in metadata and some themes)
-# social:
-#   orcid: "https://orcid.org/0000-0001-7827-6558"
-#   github: "https://github.com/anhph95"
-#   linkedin: "https://www.linkedin.com/in/huyanhpham/"
+# Social links (will show up in metadata and some themes)
+social:
+  orcid: "https://orcid.org/0000-0001-7827-6558"
+  github: "https://github.com/anhph95"
+  linkedin: "https://www.linkedin.com/in/huyanhpham/"
 
 # # Build settings
 # markdown: kramdown
