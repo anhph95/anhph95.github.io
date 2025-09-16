@@ -32,14 +32,14 @@ social:
 #   - jekyll-feed           # Generates RSS feed
 #   - jekyll-paginate       # Adds pagination support
 
-# # Defaults for posts
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
-#       author: "Anh H. Pham"
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Anh H. Pham"
 
 # # Exclusions
 # exclude:
