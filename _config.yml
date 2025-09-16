@@ -21,9 +21,9 @@ social:
   github: "https://github.com/anhph95"
   linkedin: "https://www.linkedin.com/in/huyanhpham/"
 
-# # Build settings
-# markdown: kramdown
-# highlighter: rouge
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
 # # Plugins for better features
 # plugins:
