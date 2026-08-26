@@ -5,57 +5,58 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
 ---
 
 <section class="hero">
-  <div class="hero-grid clean-hero">
+  <div class="hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Biological oceanography · plankton ecology · environmental data science</p>
-      <h1>Building AI-enabled observing systems for dynamic plankton ecosystems.</h1>
-      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution, where I connect plankton ecology, autonomous ocean observing, remote sensing, and machine learning to understand how marine communities change across space and time.</p>
+      <h1>AI-enabled ocean observing for dynamic plankton ecosystems.</h1>
+      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution. My work connects field observations, autonomous platforms, satellite sensing, imaging, and machine learning to understand how marine plankton communities change across space and time.</p>
       <div class="hero-links">
         <a class="button" href="{{ '/research/' | relative_url }}">Research Themes</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
       </div>
     </div>
-    <aside class="portrait-card">
-      <img src="{{ '/assets/media/portrait-900.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
-      <p><strong>Current focus:</strong> dynamic planktonic habitats, plankton community variability, and advanced ocean technologies for scalable biological observing.</p>
-    </aside>
+    <figure class="portrait-card">
+      <img src="{{ '/images/Portrait.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
+      <figcaption>Postdoctoral Investigator, Woods Hole Oceanographic Institution</figcaption>
+    </figure>
   </div>
 </section>
-
-<figure class="panorama">
-  <img src="{{ '/images/Wind_Farm_sunset_2.jpg' | relative_url }}" alt="Offshore wind farm at sunset over the ocean.">
-</figure>
 
 <section class="section">
   <div class="section-inner two-column">
     <div>
       <h2>About</h2>
-      <p>My work sits at the intersection of plankton ecology, biological oceanography, artificial intelligence, and autonomous observing. I study how plankton communities organize across physical and chemical gradients, how they respond to river plumes, intrusions, eddies, and mixing, and how automated systems can make ecosystem information available quickly enough to support prediction and management.</p>
+      <p>My research asks how plankton communities organize across physical and chemical gradients, how they respond to river plumes, intrusions, eddies, and mixing, and how automated systems can make biological ocean observations more scalable and useful.</p>
       <p>I earned my Ph.D. in Ocean Science and Engineering, with a minor in Applied Computer Science, from Georgia Tech. Before joining WHOI, I studied harmful algal species, phytoplankton functional groups, river-ocean mixing, and observation-based classification of planktonic habitats.</p>
     </div>
     <ul class="stat-list">
-      <li><strong>Postdoctoral Investigator</strong><br>Woods Hole Oceanographic Institution</li>
-      <li><strong>Ph.D.</strong><br>Ocean Science and Engineering, Georgia Institute of Technology</li>
-      <li><strong>Approach</strong><br>Field observations, autonomous platforms, satellite sensing, imaging, machine learning, and reproducible data systems</li>
+      <li><strong>Current role</strong><br>Postdoctoral Investigator, WHOI Biology Department</li>
+      <li><strong>Training</strong><br>Ocean science, biological oceanography, biotechnology, and applied computer science</li>
+      <li><strong>Approach</strong><br>Field sampling, imaging, autonomous platforms, remote sensing, machine learning, and reproducible data systems</li>
     </ul>
   </div>
 </section>
 
 <section class="section media-band">
   <div class="section-inner">
-    <p class="eyebrow">Research Themes</p>
-    <div class="visual-strip">
+    <p class="eyebrow">Observation Technologies</p>
+    <h2>From ships and sensors to ecological data products</h2>
+    <div class="visual-strip tech-strip">
       <figure>
-        <img src="{{ '/images/Global_Biogeography_LonghurstProvince.png' | relative_url }}" alt="Global ocean biogeography map with Longhurst provinces.">
-        <figcaption>Dynamic planktonic habitats and biogeography.</figcaption>
+        <img src="{{ '/images/CTD.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
+        <figcaption>Water-column sampling links biological observations to hydrography and chemistry.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/images/Bongo_net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
+        <figcaption>Net sampling grounds automated observations in organismal ecology and taxonomy.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/images/Stingray_customed_tow_sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
+        <figcaption>Towed imaging platforms expand plankton observations across space and time.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/images/IFCB_example_image_Sosik_Lab_@_WHOI.png' | relative_url }}" alt="Example Image FlowCytobot plankton images from the Sosik Lab at WHOI.">
-        <figcaption>Planktonic community variability from imaging observations.</figcaption>
-      </figure>
-      <figure>
-        <img src="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}" alt="Shadowgraph plankton imagery with computer-vision detection.">
-        <figcaption>Advanced ocean technologies for automated observing.</figcaption>
+        <figcaption>IFCB imagery captures phytoplankton community structure at high taxonomic resolution.</figcaption>
       </figure>
     </div>
   </div>
