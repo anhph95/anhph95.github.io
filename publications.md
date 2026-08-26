@@ -11,7 +11,7 @@ description: "Publications by Anh H. Pham."
 
 ## Peer-Reviewed Publications
 
-1. Pham, A.H., Zheng, B., Sosik, H.M., Zhang, W.G., Ferguson, M., Peacock, E.E., Crockford, E.T., Grassian, B., Zuidema, S., Gawarkiewicz, G.G., and Sato, M. Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf. *Limnology and Oceanography*, 2026.
+1. Pham, A.H., Zheng, B., Sosik, H.M., Zhang, W.G., Ferguson, M., Peacock, E.E., Crockford, E.T., Grassian, B., Zuidema, S., Gawarkiewicz, G.G., and Sato, M. Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf. *Limnology and Oceanography*, 2026. [https://doi.org/10.1002/lno.70388](https://doi.org/10.1002/lno.70388)
 
 2. Pham, A.H., Subramaniam, A., and Montoya, J.P. Delineating marine planktonic habitats through the Biogeochemical-Argo array data. *Journal of Geophysical Research: Oceans*, 2025. [https://doi.org/10.1029/2025JC022543](https://doi.org/10.1029/2025JC022543)
 
