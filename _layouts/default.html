@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo title=false %}
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">Anh H. Pham</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span>Woods Hole Oceanographic Institution</span>
+        <span><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></span>
+        <span><a href="{{ site.social.github }}">GitHub</a></span>
+        <span><a href="{{ site.social.orcid }}">ORCID</a></span>
+        <span><a href="{{ site.social.linkedin }}">LinkedIn</a></span>
+      </p>
+    </footer>
+  </body>
+</html>
