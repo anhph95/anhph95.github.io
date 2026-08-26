@@ -9,6 +9,11 @@ description: "CV summary for Anh H. Pham."
 
 # CV
 
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/flying-fish-1200.jpg' | relative_url }}" alt="Flying fish photographed at sea.">
+  <figcaption>Field observations keep the computational work connected to the living ocean.</figcaption>
+</figure>
+
 ## Positions
 
 <ul class="timeline">

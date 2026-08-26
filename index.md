@@ -5,6 +5,7 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
 ---
 
 <section class="hero">
+  <img class="hero-backdrop" src="{{ '/assets/media/wind-farm-hero.jpg' | relative_url }}" alt="">
   <div class="hero-grid">
     <div>
       <p class="eyebrow">Biological oceanography · plankton ecology · environmental AI</p>
@@ -15,7 +16,8 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
       </div>
     </div>
-    <aside class="hero-card">
+    <aside class="portrait-card">
+      <img src="{{ '/assets/media/portrait-900.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
       <p><strong>Current focus:</strong> computer vision for plankton imagery, topic modeling of phytoplankton communities, autonomous observing workflows, and dynamic habitat mapping across marine gradients.</p>
     </aside>
   </div>
@@ -36,6 +38,26 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
   </div>
 </section>
 
+<section class="section media-band">
+  <div class="section-inner">
+    <p class="eyebrow">Fieldwork and observing systems</p>
+    <div class="visual-strip">
+      <figure>
+        <img src="{{ '/assets/media/ctd-900.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
+        <figcaption>Hydrographic sampling links plankton observations to the physical and chemical structure of the water column.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/stingray-900.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
+        <figcaption>Autonomous and towed imaging platforms expand biological observations beyond sparse shipboard sampling.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/bongo-net-1200.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
+        <figcaption>Field collections ground automated analysis in organismal biology and plankton ecology.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section class="section alt">
   <div class="section-inner">
     <h2>Research Program</h2>
@@ -53,6 +75,19 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
         <p>Building modular pipelines, dashboards, and reproducible workflows that connect environmental observations with biological data products for science and decision support.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner feature-figure">
+    <figure>
+      <img src="{{ '/images/Habitat_Delineation.png' | relative_url }}" alt="Habitat delineation analysis with clustering, PCA, and environmental vectors.">
+      <figcaption>Observation-based habitat delineation connects statistical structure with oceanographic gradients.</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/images/IFCB_Topic_Modeling.png' | relative_url }}" alt="IFCB topic modeling figure showing plankton community structure across depth and latitude.">
+      <figcaption>Topic modeling of imaging data reveals recurring phytoplankton community patterns across the shelf.</figcaption>
+    </figure>
   </div>
 </section>
 
