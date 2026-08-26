@@ -16,7 +16,7 @@ description: "Research program of Anh H. Pham."
     <figcaption>Deploying imaging systems at sea connects instrument development, field ecology, and real-time ocean observing.</figcaption>
   </figure>
   <figure data-slide hidden>
-    <img src="{{ '/assets/media/ctd-sampling-rough-sea.jpg' | relative_url }}" alt="CTD sampling in rough sea conditions.">
+    <img src="{{ '/assets/media/ctd-sampling-during-rough-sea.jpg' | relative_url }}" alt="CTD sampling in rough sea conditions.">
     <figcaption>Shipboard sampling anchors autonomous and imaging observations in physical ocean context.</figcaption>
   </figure>
   <button class="carousel-button next" type="button" data-next aria-label="Next research image">›</button>

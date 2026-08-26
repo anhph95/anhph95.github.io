@@ -91,7 +91,7 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     <div>
       <h2>Contact</h2>
       <p>Email: <a href="mailto:anh.pham@whoi.edu">anh.pham@whoi.edu</a></p>
-      <p><a href="https://github.com/anhph95">GitHub</a><br><a href="https://orcid.org/0000-0001-7827-6558">ORCID</a><br><a href="https://www.linkedin.com/in/huyanhpham/">LinkedIn</a></p>
+      <p><a href="https://github.com/anhph95">GitHub</a><br><a href="https://orcid.org/0000-0001-7827-6558">ORCID</a><br><a href="https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en">Google Scholar</a><br><a href="https://www.linkedin.com/in/huyanhpham/">LinkedIn</a></p>
     </div>
   </div>
 </section>

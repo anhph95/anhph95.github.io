@@ -385,6 +385,7 @@ figcaption {
 }
 
 
+
 .carousel {
   position: relative;
   margin: 28px 0 34px;
@@ -400,28 +401,60 @@ figcaption {
 
 .carousel-button {
   position: absolute;
-  top: 50%;
+  top: 0;
+  bottom: 34px;
   z-index: 2;
-  width: 42px;
-  height: 42px;
+  width: 24%;
   border: 0;
-  border-radius: 999px;
-  color: var(--white);
-  background: rgba(18, 60, 85, 0.82);
-  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.88);
+  background: transparent;
+  font-size: clamp(3.2rem, 8vw, 6rem);
   line-height: 1;
   cursor: pointer;
-  transform: translateY(-50%);
+  text-shadow: 0 2px 18px rgba(18, 60, 85, 0.55);
+  opacity: 0.68;
 }
 
-.carousel-button:hover {
-  background: var(--coral);
+.carousel-button:hover,
+.carousel-button:focus-visible {
+  opacity: 1;
+  background: linear-gradient(90deg, rgba(18, 60, 85, 0.18), transparent);
 }
 
 .carousel-button.prev {
-  left: 12px;
+  left: 0;
+  text-align: left;
+  padding-left: 18px;
 }
 
 .carousel-button.next {
-  right: 12px;
+  right: 0;
+  text-align: right;
+  padding-right: 18px;
+}
+
+.carousel-button.next:hover,
+.carousel-button.next:focus-visible {
+  background: linear-gradient(270deg, rgba(18, 60, 85, 0.18), transparent);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 12px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 1px solid var(--sea);
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.carousel-dot[aria-pressed="true"] {
+  background: var(--sea);
 }

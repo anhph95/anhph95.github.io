@@ -49,6 +49,7 @@ I have taught or assisted courses in ecology, organismal biology, biological pri
 
 - [GitHub](https://github.com/anhph95)
 - [ORCID](https://orcid.org/0000-0001-7827-6558)
+- [Google Scholar](https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en)
 - [LinkedIn](https://www.linkedin.com/in/huyanhpham/)
 
 </article>
