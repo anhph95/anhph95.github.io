@@ -5,54 +5,57 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
 ---
 
 <section class="hero">
-  <img class="hero-backdrop" src="{{ '/assets/media/wind-farm-hero.jpg' | relative_url }}" alt="">
-  <div class="hero-grid">
-    <div>
-      <p class="eyebrow">Biological oceanography · plankton ecology · environmental AI</p>
-      <h1>Building AI-enabled ocean observing systems for dynamic plankton ecosystems.</h1>
-      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution, where I develop computational and observational approaches that turn high-volume ocean data into ecological understanding.</p>
+  <div class="hero-grid clean-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Biological oceanography · plankton ecology · environmental data science</p>
+      <h1>Building AI-enabled observing systems for dynamic plankton ecosystems.</h1>
+      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution, where I connect plankton ecology, autonomous ocean observing, remote sensing, and machine learning to understand how marine communities change across space and time.</p>
       <div class="hero-links">
-        <a class="button" href="{{ '/research/' | relative_url }}">Explore Research</a>
+        <a class="button" href="{{ '/research/' | relative_url }}">Research Themes</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
       </div>
     </div>
     <aside class="portrait-card">
       <img src="{{ '/assets/media/portrait-900.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
-      <p><strong>Current focus:</strong> computer vision for plankton imagery, topic modeling of phytoplankton communities, autonomous observing workflows, and dynamic habitat mapping across marine gradients.</p>
+      <p><strong>Current focus:</strong> dynamic planktonic habitats, plankton community variability, and advanced ocean technologies for scalable biological observing.</p>
     </aside>
   </div>
 </section>
+
+<figure class="panorama">
+  <img src="{{ '/images/Wind_Farm_sunset_2.jpg' | relative_url }}" alt="Offshore wind farm at sunset over the ocean.">
+</figure>
 
 <section class="section">
   <div class="section-inner two-column">
     <div>
       <h2>About</h2>
-      <p>My work sits at the intersection of plankton ecology, biological oceanography, artificial intelligence, and autonomous observing. I study how plankton communities organize across physical and chemical gradients, how they respond to events such as river plumes, intrusions, eddies, and mixing, and how automated data systems can make ecosystem information available quickly enough to support prediction and management.</p>
+      <p>My work sits at the intersection of plankton ecology, biological oceanography, artificial intelligence, and autonomous observing. I study how plankton communities organize across physical and chemical gradients, how they respond to river plumes, intrusions, eddies, and mixing, and how automated systems can make ecosystem information available quickly enough to support prediction and management.</p>
       <p>I earned my Ph.D. in Ocean Science and Engineering, with a minor in Applied Computer Science, from Georgia Tech. Before joining WHOI, I studied harmful algal species, phytoplankton functional groups, river-ocean mixing, and observation-based classification of planktonic habitats.</p>
     </div>
     <ul class="stat-list">
       <li><strong>Postdoctoral Investigator</strong><br>Woods Hole Oceanographic Institution</li>
       <li><strong>Ph.D.</strong><br>Ocean Science and Engineering, Georgia Institute of Technology</li>
-      <li><strong>Tools</strong><br>Machine learning, computer vision, NLP, high-performance computing, satellite and autonomous observations</li>
+      <li><strong>Approach</strong><br>Field observations, autonomous platforms, satellite sensing, imaging, machine learning, and reproducible data systems</li>
     </ul>
   </div>
 </section>
 
 <section class="section media-band">
   <div class="section-inner">
-    <p class="eyebrow">Fieldwork and observing systems</p>
+    <p class="eyebrow">Research Themes</p>
     <div class="visual-strip">
       <figure>
-        <img src="{{ '/assets/media/ctd-900.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
-        <figcaption>Hydrographic sampling links plankton observations to the physical and chemical structure of the water column.</figcaption>
+        <img src="{{ '/images/Global_Biogeography_LonghurstProvince.png' | relative_url }}" alt="Global ocean biogeography map with Longhurst provinces.">
+        <figcaption>Dynamic planktonic habitats and biogeography.</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/assets/media/stingray-900.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
-        <figcaption>Autonomous and towed imaging platforms expand biological observations beyond sparse shipboard sampling.</figcaption>
+        <img src="{{ '/images/IFCB_example_image_Sosik_Lab_@_WHOI.png' | relative_url }}" alt="Example Image FlowCytobot plankton images from the Sosik Lab at WHOI.">
+        <figcaption>Planktonic community variability from imaging observations.</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/assets/media/bongo-net-1200.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
-        <figcaption>Field collections ground automated analysis in organismal biology and plankton ecology.</figcaption>
+        <img src="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}" alt="Shadowgraph plankton imagery with computer-vision detection.">
+        <figcaption>Advanced ocean technologies for automated observing.</figcaption>
       </figure>
     </div>
   </div>
@@ -63,31 +66,18 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     <h2>Research Program</h2>
     <div class="cards">
       <article class="card">
-        <h3>Automated Biological Observation</h3>
-        <p>Developing robust AI methods for identifying and quantifying plankton from high-volume image data, with attention to uncertainty, taxonomic ambiguity, and ecological interpretation.</p>
+        <h3>Dynamic Planktonic Habitats and Biogeography</h3>
+        <p>Defining adaptive plankton habitats from ocean observations so ecological boundaries move with river plumes, floats, intrusions, and water-mass gradients.</p>
       </article>
       <article class="card">
-        <h3>Dynamic Plankton Habitats</h3>
-        <p>Using satellite, float, shipboard, autonomous-vehicle, and imaging observations to define adaptive plankton habitats that move with the ocean rather than fixed map boundaries.</p>
+        <h3>Planktonic Community Variability</h3>
+        <p>Using imaging records and community models to quantify how phytoplankton and zooplankton assemblages vary across shelf locations, seasons, and years.</p>
       </article>
       <article class="card">
-        <h3>Predictive Cyberinfrastructure</h3>
-        <p>Building modular pipelines, dashboards, and reproducible workflows that connect environmental observations with biological data products for science and decision support.</p>
+        <h3>Advanced Ocean Technologies</h3>
+        <p>Combining computer vision, autonomous platforms, satellite remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
       </article>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-inner feature-figure">
-    <figure>
-      <img src="{{ '/images/Habitat_Delineation.png' | relative_url }}" alt="Habitat delineation analysis with clustering, PCA, and environmental vectors.">
-      <figcaption>Observation-based habitat delineation connects statistical structure with oceanographic gradients.</figcaption>
-    </figure>
-    <figure>
-      <img src="{{ '/images/IFCB_Topic_Modeling.png' | relative_url }}" alt="IFCB topic modeling figure showing plankton community structure across depth and latitude.">
-      <figcaption>Topic modeling of imaging data reveals recurring phytoplankton community patterns across the shelf.</figcaption>
-    </figure>
   </div>
 </section>
 
