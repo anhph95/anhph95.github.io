@@ -1,7 +1,2 @@
-*.avi
-*.tif
-*.tiff
-CTD_sampling_in_rough_sea.jpg
-Really_cool_flying_fish.jpg
-Wind_Farm_sunset.png
-really_nice_sunset.jpg
+*
+!.gitignore

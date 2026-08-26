@@ -9,6 +9,11 @@ description: "CV summary for Anh H. Pham."
 
 # CV
 
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/really-nice-sunset.jpg' | relative_url }}" alt="Sunset over the ocean.">
+  <figcaption>Research at sea, computation on shore, and ecological questions that connect the two.</figcaption>
+</figure>
+
 ## Positions
 
 <ul class="timeline">

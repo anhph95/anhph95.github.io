@@ -16,7 +16,7 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
       </div>
     </div>
     <figure class="portrait-card">
-      <img src="{{ '/images/Portrait.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
+      <img src="{{ '/assets/media/portrait.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
       <figcaption>Postdoctoral Investigator, Woods Hole Oceanographic Institution</figcaption>
     </figure>
   </div>
@@ -43,20 +43,16 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     <h2>From ships and sensors to ecological data products</h2>
     <div class="visual-strip tech-strip">
       <figure>
-        <img src="{{ '/images/CTD.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
+        <img src="{{ '/assets/media/ctd.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
         <figcaption>Water-column sampling links biological observations to hydrography and chemistry.</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/images/Bongo_net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
-        <figcaption>Net sampling grounds automated observations in organismal ecology and taxonomy.</figcaption>
-      </figure>
-      <figure>
-        <img src="{{ '/images/Stingray_customed_tow_sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
+        <img src="{{ '/assets/media/stingray-tow-sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
         <figcaption>Towed imaging platforms expand plankton observations across space and time.</figcaption>
       </figure>
       <figure>
-        <img src="{{ '/images/IFCB_example_image_Sosik_Lab_@_WHOI.png' | relative_url }}" alt="Example Image FlowCytobot plankton images from the Sosik Lab at WHOI.">
-        <figcaption>IFCB imagery captures phytoplankton community structure at high taxonomic resolution.</figcaption>
+        <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
+        <figcaption>Net sampling grounds automated observations in organismal ecology and taxonomy.</figcaption>
       </figure>
     </div>
   </div>
