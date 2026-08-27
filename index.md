@@ -46,23 +46,27 @@ description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanog
     <div class="visual-strip tech-strip">
       <figure>
         <img src="{{ '/assets/media/ctd.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
-        <figcaption>CTD rosette enables measurement of environmental propeties and seawater sampling across the water column.</figcaption>
-      </figure>
-      <figure>
-        <img src="{{ '/assets/media/stingray-tow-sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
-        <figcaption>Custom tow sled equipped with a suit of environmental sensors and imaging systems, expanding plankton observations across space and time.</figcaption>
-      </figure>
-      <figure>
-        <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
-        <figcaption>Traditional sampling methods ground automated observations in organismal ecology and taxonomy.</figcaption>
+        <figcaption>CTD rosette enables measurement of environmental properties and seawater sampling across the water column.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/bgc-argo-float.jpg' | relative_url }}" alt="Biogeochemical-Argo float being deployed at sea.">
-        <figcaption>BGC-Argo floats extend biogeochemical and ecological observations across broad ocean regions. Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</figcaption>
+        <figcaption>BGC-Argo floats provide autonomous profiling observations that extend CTD-like measurements across broad ocean regions. <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/stingray-tow-sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
+        <figcaption>Custom tow sled equipped with environmental sensors and imaging systems extends profile observations across time and space.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/lrauv.jpg' | relative_url }}" alt="Long-range autonomous underwater vehicle used for ocean observation.">
-        <figcaption>LRAUVs support sustained autonomous sampling and adaptive ocean observing. Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</figcaption>
+        <figcaption>LRAUVs and other AUVs support sustained autonomous profiling and adaptive ocean observing across moving water masses. <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/pace-satellite.jpg' | relative_url }}" alt="Satellite view supporting global ocean observation.">
+        <figcaption>Satellite observations connect local measurements with global-scale patterns in ocean color, productivity, and plankton dynamics. <span class="image-credit">Image credit: <a href="https://svs.gsfc.nasa.gov/12469" target="_blank" rel="noopener noreferrer">NASA Scientific Visualization Studio</a>.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
+        <figcaption>Nets and other traditional sampling methods provide organismal, taxonomic, and biogeochemical ground truth for automated observations.</figcaption>
       </figure>
     </div>
   </div>

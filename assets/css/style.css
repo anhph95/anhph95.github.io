@@ -256,6 +256,18 @@ figcaption {
   color: #d9efeb;
 }
 
+.image-credit {
+  display: block;
+  margin-top: 4px;
+  color: rgba(217, 239, 235, 0.68);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.image-credit a {
+  color: rgba(184, 229, 238, 0.82);
+}
+
 .tech-strip figure {
   display: flex;
   flex-direction: column;
