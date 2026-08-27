@@ -74,6 +74,10 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
         <h3>Ocean Technologies</h3>
         <p>Combining computer vision, autonomous platforms, remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
       </article>
+      <article class="card">
+        <h3>Harmful Algal Blooms</h3>
+        <p>Identifying potentially toxic harmful algae species through microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments.</p>
+      </article>
     </div>
   </div>
 </section>

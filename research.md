@@ -81,6 +81,15 @@ One project addresses foundational questions in plankton ecology by examining va
 
 </div>
 
+## Harmful Algal Blooms
+
+In collaboration with the Department of Marine Plankton at the Institute of Oceanography, Vietnam, I study potentially toxic harmful algae species in coastal waters. This work combines microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments to improve species identification and connect organism-level traits with bloom dynamics.
+
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/toxic_algae.png' | relative_url }}" alt="Microscopic imagery of potentially toxic harmful algae species.">
+  <figcaption>Microscopic imaging and morphology analysis support identification of potentially toxic harmful algae species in collaborative work with the Department of Marine Plankton, Institute of Oceanography, Vietnam.</figcaption>
+</figure>
+
 ## Ocean Technologies
 
 Modern ocean observing systems generate data at volumes and frequencies that increasingly require automated approaches for interpretation. I develop computer-vision workflows, scalable data-processing pipelines, interactive visualization tools, and remote-sensing approaches that connect autonomous platforms, shipboard observations, and satellites with ecological understanding.
