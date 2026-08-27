@@ -29,7 +29,7 @@ description: "Research program of Anh H. Pham."
 
 My research develops computational and observational approaches to transform large, heterogeneous ocean datasets into an integrated understanding of dynamic marine planktonic systems. My long-term goal is to bridge biological oceanography, plankton ecology, autonomous observing, and artificial intelligence to generate ecosystem information and insight at the pace and scale of modern ocean observations.
 
-## Dynamic Planktonic Habitats and Biogeography
+## Biogeography
 
 Traditional marine biogeography often relies on fixed spatial provinces defined primarily by broad, large-scale seasonal patterns. Yet plankton communities also respond to shorter-term and finer-scale variability associated with atmospheric forcing, shifting water masses, and mesoscale processes such as eddies, river discharge, and water-mass intrusions. My work uses observation-based classification to define habitats directly from the biological and environmental structure of the water itself, allowing ecological structure to emerge dynamically from observations rather than being prescribed in advance.
 
@@ -38,7 +38,7 @@ Traditional marine biogeography often relies on fixed spatial provinces defined 
   <figcaption>Longhurst provinces define broad ocean biogeographic regions characterized by distinct seasonal patterns in phytoplankton biomass and underlying oceanographic conditions.</figcaption>
 </figure>
 
-Building on this framework, I integrate observations across platforms and scales to develop adaptive habitat classifications that capture how plankton communities reorganize as ocean conditions change. These approaches provide a more flexible view of marine biogeography, connecting broad regional patterns with the finer-scale and transient structure increasingly resolved by modern observing systems.
+Building on this framework, I integrate observations across platforms and scales to develop dynamic habitat classifications that capture how plankton communities reorganize as ocean conditions change. These approaches provide a more flexible view of marine biogeography, connecting broad regional patterns with the finer-scale and transient structure increasingly resolved by modern observing systems.
 
 <div class="theme-gallery">
 
@@ -54,7 +54,7 @@ Building on this framework, I integrate observations across platforms and scales
 
 </div>
 
-## Planktonic Community Variability
+## Community Structure
 
 High-frequency imaging records make it possible to view plankton communities as dynamic assemblages that reorganize across water masses, seasons, and years. By combining IFCB observations with community-level metrics and computational approaches, I uncover recurring ecological assemblages and track how plankton metacommunities emerge, persist, and reorganize through time.
 
@@ -81,7 +81,7 @@ One project addresses foundational questions in plankton ecology by examining va
 
 </div>
 
-## Advanced Ocean Technologies
+## Ocean Technologies
 
 Modern ocean observing systems generate data at volumes and frequencies that increasingly require automated approaches for interpretation. I develop computer-vision workflows, scalable data-processing pipelines, interactive visualization tools, and remote-sensing approaches that connect autonomous platforms, shipboard observations, and satellites with ecological understanding.
 
