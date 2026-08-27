@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Home
-description: "Anh H. Pham is a biological oceanographer building AI-enabled observing systems for plankton ecosystems."
+seo_title: "Anh H. Pham | Computational Oceanography"
+description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanographic Institution studying plankton ecology, biological oceanography, ocean observing systems, and AI-enabled marine ecosystem analysis."
 ---
 
 <section class="hero">
   <div class="hero-grid">
     <div class="hero-copy">
+      <p class="hero-name">Anh H. Pham</p>
       <p class="eyebrow">Biological Oceanography · Plankton Ecology · Data Science</p>
       <h1>AI-enabled observing systems for dynamic marine ecosystems.</h1>
       <p class="lead">I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.</p>
@@ -53,6 +55,14 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
       <figure>
         <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
         <figcaption>Traditional sampling methods ground automated observations in organismal ecology and taxonomy.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/bgc-argo-float.jpg' | relative_url }}" alt="Biogeochemical-Argo float being deployed at sea.">
+        <figcaption>BGC-Argo floats extend biogeochemical and ecological observations across broad ocean regions. Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</figcaption>
+      </figure>
+      <figure>
+        <img src="{{ '/assets/media/lrauv.jpg' | relative_url }}" alt="Long-range autonomous underwater vehicle used for ocean observation.">
+        <figcaption>LRAUVs support sustained autonomous sampling and adaptive ocean observing. Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</figcaption>
       </figure>
     </div>
   </div>

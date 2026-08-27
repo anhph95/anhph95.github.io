@@ -84,6 +84,13 @@ a:hover {
   margin: 0 auto;
 }
 
+.hero-name {
+  margin: 0 0 8px;
+  color: var(--deep);
+  font-size: 1.02rem;
+  font-weight: 800;
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: var(--kelp);
@@ -469,5 +476,5 @@ figcaption {
 }
 
 .tech-strip {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
