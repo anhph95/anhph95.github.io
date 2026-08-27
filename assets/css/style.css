@@ -300,6 +300,11 @@ figcaption {
   object-fit: contain;
 }
 
+.teaching-header-image img {
+  max-height: 340px;
+  object-fit: cover;
+}
+
 .research-lead-figure {
   margin-top: 0;
 }
@@ -315,6 +320,20 @@ figcaption {
 .theme-gallery video {
   width: 100%;
   height: auto;
+  object-fit: contain;
+}
+
+.equal-height-gallery {
+  align-items: start;
+}
+
+.equal-height-gallery figure {
+  display: grid;
+  grid-template-rows: minmax(300px, 38vw) auto;
+}
+
+.equal-height-gallery img {
+  height: 100%;
   object-fit: contain;
 }
 

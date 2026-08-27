@@ -78,19 +78,19 @@ description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanog
     <div class="cards">
       <a class="card card-link" href="{{ '/research/#biogeography' | relative_url }}">
         <h3>Biogeography</h3>
-        <p>Defining dynamic plankton habitats from ocean observations so ecological boundaries move with river discharge, eddies, intrusions, and other water-mass gradients.</p>
+        <p>Defining dynamic plankton habitats from ocean observations so ecological boundaries move with river discharge, currents, eddies, and water-mass gradients.</p>
       </a>
-      <a class="card card-link" href="{{ '/research/#community-structure' | relative_url }}">
-        <h3>Community Structure</h3>
+      <a class="card card-link" href="{{ '/research/#planktonic-community-structure' | relative_url }}">
+        <h3>Planktonic Community Structure</h3>
         <p>Using ecological statistics and community models to quantify how phytoplankton and zooplankton assemblages vary across space and time.</p>
-      </a>
-      <a class="card card-link" href="{{ '/research/#ocean-technologies' | relative_url }}">
-        <h3>Ocean Technologies</h3>
-        <p>Combining computer vision, autonomous platforms, remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
       </a>
       <a class="card card-link" href="{{ '/research/#harmful-algal-blooms' | relative_url }}">
         <h3>Harmful Algal Blooms</h3>
         <p>Identifying potentially toxic harmful algae species through microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments.</p>
+      </a>
+      <a class="card card-link" href="{{ '/research/#ocean-technologies' | relative_url }}">
+        <h3>Ocean Technologies</h3>
+        <p>Combining high-resolution sensors, imaging systems, remote sensing, and reproducible data workflows for scalable biological ocean observing.</p>
       </a>
     </div>
   </div>

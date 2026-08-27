@@ -27,20 +27,38 @@ description: "Research program of Anh H. Pham."
 
 </div>
 
-My research develops computational and observational approaches to transform large, heterogeneous ocean datasets into an integrated understanding of dynamic marine planktonic systems. My long-term goal is to bridge biological oceanography, plankton ecology, autonomous observing, and artificial intelligence to generate ecosystem information and insight at the pace and scale of modern ocean observations.
+My research develops computational and observational approaches to transform large, heterogeneous ocean datasets into an integrated understanding of dynamic marine planktonic systems. My long-term goal is to bridge biological oceanography, plankton ecology, ocean observing technologies, and artificial intelligence to generate ecosystem information and insight at the pace and scale of modern ocean observations.
 
 ## Biogeography
 
-Traditional marine biogeography often relies on fixed spatial provinces defined primarily by broad, large-scale seasonal patterns. Yet plankton communities also respond to shorter-term and finer-scale variability associated with atmospheric forcing, shifting water masses, and mesoscale processes such as eddies, river discharge, and water-mass intrusions. My work uses observation-based classification to define habitats directly from the biological and environmental structure of the water itself, allowing ecological structure to emerge dynamically from observations rather than being prescribed in advance.
+Marine biogeography is often described through regional frameworks that divide the ocean into provinces, ecoregions, or assessment areas. These frameworks provide useful context for comparing ecosystems across broad spatial scales, but planktonic habitats are also shaped by physical and biogeochemical gradients that move, intensify, and relax through time.
 
-<figure class="wide-figure">
-  <img src="{{ '/assets/media/global-biogeography-longhurst-province.png' | relative_url }}" alt="Global ocean biogeography map with Longhurst provinces.">
-  <figcaption>Longhurst provinces define broad ocean biogeographic regions characterized by distinct seasonal patterns in phytoplankton biomass and underlying oceanographic conditions.</figcaption>
-</figure>
+<div class="carousel" data-carousel>
 
-Building on this framework, I integrate observations across platforms and scales to develop dynamic habitat classifications that capture how plankton communities reorganize as ocean conditions change. These approaches provide a more flexible view of marine biogeography, connecting broad regional patterns with the finer-scale and transient structure increasingly resolved by modern observing systems.
+  <button class="carousel-button prev" type="button" data-prev aria-label="Previous biogeography framework">‹</button>
 
-<div class="theme-gallery">
+  <figure data-slide>
+    <img src="{{ '/assets/media/global-biogeography-longhurst-province.png' | relative_url }}" alt="Global ocean biogeography map with Longhurst provinces.">
+    <figcaption>Longhurst provinces describe broad ocean biogeographic regions characterized by distinct seasonal patterns in phytoplankton biomass and oceanographic conditions.</figcaption>
+  </figure>
+
+  <figure data-slide hidden>
+    <img src="{{ '/assets/media/global-biogeography-Spalding-marine-ecoregions.png' | relative_url }}" alt="Global map of Spalding marine ecoregions.">
+    <figcaption>Spalding marine ecoregions provide a complementary coastal and shelf framework for comparing marine ecological structure.</figcaption>
+  </figure>
+
+  <figure data-slide hidden>
+    <img src="{{ '/assets/media/global-biogeography-ipcc-ar6-marine-regions.png' | relative_url }}" alt="Global map of IPCC AR6 marine regions.">
+    <figcaption>IPCC AR6 marine regions support synthesis of climate-driven ocean change across standardized assessment regions.</figcaption>
+  </figure>
+
+  <button class="carousel-button next" type="button" data-next aria-label="Next biogeography framework">›</button>
+
+</div>
+
+Dynamic environments such as river plumes, boundary currents, eddies, and water-mass intrusions create strong environmental gradients that plankton communities experience as moving habitats. In the western tropical North Atlantic, Amazon River discharge generates seasonal transitions from low-salinity, nutrient-rich plume waters to oligotrophic oceanic waters. At the basin scale, surface circulation connects equatorial currents, the North Brazil Current and its retroflection, the Gulf Stream, and mesoscale eddies that redistribute water masses and biological communities.
+
+<div class="theme-gallery equal-height-gallery">
 
   <figure>
     <img src="{{ '/assets/media/dynamic-amazon-river-plume.gif' | relative_url }}" alt="Animated shipboard observation of Amazon River plume dynamics.">
@@ -48,13 +66,20 @@ Building on this framework, I integrate observations across platforms and scales
   </figure>
 
   <figure>
-    <img src="{{ '/assets/media/habitat-delineation-bgc-argo-float.png' | relative_url }}" alt="Habitat delineation from Biogeochemical-Argo float observations.">
-    <figcaption>Multivariate analysis of biogeochemical observations reveals distinct planktonic habitats within a continuously changing ocean.</figcaption>
+    <img src="{{ '/assets/media/north-atlantic-surface-velocity.gif' | relative_url }}" alt="Animated North Atlantic sea surface velocity with major currents and eddies.">
+    <figcaption>North Atlantic surface velocity reveals equatorial currents, the North Brazil Current retroflection, the Gulf Stream, and eddy-driven transport.</figcaption>
   </figure>
 
 </div>
 
-## Community Structure
+To study these moving habitats, I use unsupervised machine learning on environmental and biogeochemical properties rather than prescribing static ecological boundaries in advance. Hierarchical clustering, principal component analysis, and related multivariate approaches allow planktonic habitats to emerge from the structure of the observations themselves, linking biological variability to water-mass properties, nutrient gradients, and optical signatures.
+
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/habitat-delineation-machine-learning.png' | relative_url }}" alt="HCA and PCA plot for habitat delineation from environmental and biogeochemical properties.">
+  <figcaption>Unsupervised analyses of environmental and biogeochemical observations reveal distinct planktonic habitats within a continuously changing ocean.</figcaption>
+</figure>
+
+## Planktonic Community Structure
 
 High-frequency imaging records make it possible to view plankton communities as dynamic assemblages that reorganize across water masses, seasons, and years. By combining IFCB observations with community-level metrics and computational approaches, I uncover recurring ecological assemblages and track how plankton metacommunities emerge, persist, and reorganize through time.
 
@@ -86,13 +111,13 @@ One project addresses foundational questions in plankton ecology by examining va
 In collaboration with the Department of Marine Plankton at the Institute of Oceanography, Vietnam, I study potentially toxic harmful algae species in coastal waters. This work combines microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments to improve species identification and connect organism-level traits with bloom dynamics.
 
 <figure class="wide-figure">
-  <img src="{{ '/assets/media/toxic_algae.png' | relative_url }}" alt="Microscopic imagery of potentially toxic harmful algae species.">
+  <img src="{{ '/assets/media/toxic-algae.png' | relative_url }}" alt="Microscopic imagery of potentially toxic harmful algae species.">
   <figcaption>Microscopic imaging and morphology analysis support identification of potentially toxic harmful algae species in collaborative work with the Department of Marine Plankton, Institute of Oceanography, Vietnam.</figcaption>
 </figure>
 
 ## Ocean Technologies
 
-Modern ocean observing systems generate data at volumes and frequencies that increasingly require automated approaches for interpretation. I develop computer-vision workflows, scalable data-processing pipelines, interactive visualization tools, and remote-sensing approaches that connect autonomous platforms, shipboard observations, and satellites with ecological understanding.
+My ocean technology work focuses on two connected areas: high-resolution sensors and imaging systems that resolve fine-scale biological structure, and remote-sensing approaches that place those observations in their broader oceanographic context. Together, these approaches help connect organism-scale observations with shelf-scale and global-scale ecosystem patterns.
 
 <figure class="wide-figure">
   <video controls muted playsinline preload="metadata" poster="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}">
@@ -101,28 +126,27 @@ Modern ocean observing systems generate data at volumes and frequencies that inc
   <figcaption>Computer vision transforms high-volume shadowgraph imagery into automated observations of plankton abundance and distribution.</figcaption>
 </figure>
 
-These technologies help bridge the gap between data collection and ecological interpretation. Computer vision converts continuous imagery into quantitative biological observations, while automated pipelines and visualization systems make those observations accessible during field operations and ready for broader ecological synthesis.
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/shadowgraph-zooplankton-distribution.jpg' | relative_url }}" alt="Shadowgraph-derived zooplankton distribution visualization.">
+  <figcaption>Automated image analysis connects individual organism detections to spatial patterns in zooplankton communities.</figcaption>
+</figure>
 
-<div class="theme-gallery">
+High-resolution imaging gains ecological meaning when paired with physical and biogeochemical context. On the Northeast U.S. Shelf, frontal structure, salinity intrusions, stratification, and cross-shelf gradients shape the environments sampled by imaging systems and mobile platforms, creating a bridge between local observations and broader remote-sensing products.
 
-  <figure>
-    <img src="{{ '/assets/media/shadowgraph-zooplankton.jpg' | relative_url }}" alt="Shadowgraph-derived zooplankton distribution visualization.">
-    <figcaption>Automated image analysis connects individual organism detections to spatial patterns in zooplankton communities.</figcaption>
-  </figure>
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/northeast-us-shelf-physical-properties.jpg' | relative_url }}" alt="Northeast U.S. Shelf physical properties and frontal gradients.">
+  <figcaption>Physical gradients on the Northeast U.S. Shelf provide environmental context for interpreting high-resolution plankton observations.</figcaption>
+</figure>
 
-  <figure>
-    <img src="{{ '/assets/media/phytoplankton-functional-type-remote-sensing.gif' | relative_url }}" alt="Animated remote-sensing view of phytoplankton functional types.">
-    <figcaption>Satellite observations extend local measurements to broadscale patterns in phytoplankton community structure.</figcaption>
-  </figure>
-
-</div>
-
-The Stingray dashboard is available at <a href="https://stingraydash.whoi.edu" target="_blank" rel="noopener noreferrer">stingraydash.whoi.edu</a>.
+<figure class="wide-figure">
+  <img src="{{ '/assets/media/phytoplankton-functional-type-remote-sensing.gif' | relative_url }}" alt="Animated remote-sensing view of phytoplankton functional types.">
+  <figcaption>Satellite observations extend local measurements to broadscale patterns in phytoplankton community structure.</figcaption>
+</figure>
 
 ## Current Directions
 
 - Automated computer-vision pipelines for AI-assisted plankton data collection.
-- Artificial intelligence approaches (including natural language processing, generative AI, and variational autoencoders, etc.) for identifying structure in complex multispecies planktonic communities.
+- Artificial intelligence approaches, including natural language processing, generative AI, and variational autoencoders, for identifying structure in complex multispecies planktonic communities.
 - Integration of multiple data types and observation platforms to enable ecosystem-scale synthesis across space and time.
 
 </article>
