@@ -7,9 +7,9 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
 <section class="hero">
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Biological oceanography · plankton ecology · environmental data science</p>
+      <p class="eyebrow">Biological Oceanography · Plankton Ecology · Data Science</p>
       <h1>AI-enabled observing systems for dynamic marine ecosystems.</h1>
-      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution. My work connects field observations, autonomous platforms, satellite sensing, imaging, and machine learning to understand how marine planktonic communities change across space and time.</p>
+      <p class="lead">I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.</p>
       <div class="hero-links">
         <a class="button" href="{{ '/research/' | relative_url }}">Research Themes</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
@@ -26,13 +26,15 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
   <div class="section-inner two-column">
     <div>
       <h2>About</h2>
-      <p>My research asks how plankton communities organize across physical and chemical gradients, how they respond to river plumes, intrusions, eddies, and mixing, and how automated systems can make biological ocean observations more scalable and useful.</p>
-      <p>I earned my Ph.D. in Ocean Science and Engineering, with a minor in Applied Computer Science, from Georgia Tech. Before joining WHOI, I studied harmful algal species, phytoplankton functional groups, river-ocean mixing, and observation-based classification of planktonic habitats.</p>
+      <p>I am a computational oceanographer whose work focuses on how marine planktonic communities respond to physical variability across scales, from coastal blooms to basin-scale biogeographic patterns. I combine field observations, autonomous and shipboard observing systems, satellite products, imaging instruments, and machine-learning workflows to study ecosystem dynamics that are difficult to resolve with any single data source.</p>
+      <p>At Woods Hole Oceanographic Institution, I study how frontal dynamics on the Northeast U.S. Shelf influence planktonic community structure and variability. This work uses high-resolution observations from mobile platforms, imaging systems, and environmental sensors, together with deep learning approaches such as computer vision, natural language processing, and generative AI. I also build data-processing and quality-control tools, optimize end-to-end machine-learning pipelines, and develop interactive dashboards that make complex, long-term observing datasets easier to explore, synthesize, and use during field operations.</p>
+      <p>During my Ph.D. in Ocean Science and Engineering at Georgia Tech, I studied phytoplankton biogeography in dynamic marine environments, including the Amazon River plume and broader Atlantic Ocean gradients. I developed automated and parallelized processing pipelines, unsupervised statistical frameworks, and data-mining approaches to integrate expedition records spanning more than a decade, 10,000+ Biogeochemical-Argo float profiles, and satellite observations. These workflows transformed labor-intensive analyses into reproducible pipelines and revealed ecosystem patterns across regions, water masses, and oceanographic provinces.</p>
+      <p>My earlier training at the Institute of Oceanography in Vietnam and Vietnam National University grounded this computational work in organismal biology, harmful algal bloom research, field sampling, scuba and snorkeling surveys, growth experiments, nutrient analysis, molecular biology, bioinformatics, and microalgae biotechnology. Across these experiences, my research has been driven by the same goal: to connect biological mechanism, environmental variability, and scalable technology to better understand changing marine ecosystems.</p>
     </div>
     <ul class="stat-list">
       <li><strong>Current role</strong><br>Postdoctoral Investigator<br>WHOI Biology Department</li>
-      <li><strong>Training</strong><br>Oceanography<br>Molecular Biology<br>Biogeochemistry<br>Applied Computer Science</li>
-      <li><strong>Approach</strong><br>Cytometry<br>Imaging<br>Autonomous platforms<br>Remote sensing<br>Machine learning</li>
+      <li><strong>Training</strong><br>Oceanography<br>Biogeochemistry<br>Computer Science</li>
+      <li><strong>Approach</strong><br>Cytometry<br>Imaging<br>Remote Sensing<br>Data Mining<br>Machine Learning</li>
     </ul>
   </div>
 </section>

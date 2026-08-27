@@ -61,9 +61,8 @@ My teaching experience and research background prepare me to contribute across b
 - Marine Biogeochemistry
 - Biostatistics
 - Experimental Design and Statistical Methods
-- Environmental Data Science
+- Data Science
 - Remote Sensing
-- Data Science and Machine Learning for Environmental Sciences
 
 ## Mentoring
 
