@@ -46,27 +46,27 @@ description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanog
     <div class="visual-strip tech-strip">
       <figure>
         <img src="{{ '/assets/media/ctd.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
-        <figcaption>CTD rosette enables measurement of environmental properties and seawater sampling across the water column.</figcaption>
+        <figcaption>CTD rosettes provide detailed water-column profiles and seawater samples that anchor ocean observations.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/bgc-argo-float.jpg' | relative_url }}" alt="Biogeochemical-Argo float being deployed at sea.">
-        <figcaption>BGC-Argo floats provide autonomous profiling observations that extend CTD-like measurements across broad ocean regions. <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span></figcaption>
+        <figcaption>BGC-Argo floats extend ship-based observations through autonomous profiling across broad ocean regions. <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span></figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/stingray-tow-sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
-        <figcaption>Custom tow sled equipped with environmental sensors and imaging systems extends profile observations across time and space.</figcaption>
+        <figcaption>Tow sleds resolve fine-scale variability between vertical profiles by sampling continuously along ship tracks.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/lrauv.jpg' | relative_url }}" alt="Long-range autonomous underwater vehicle used for ocean observation.">
-        <figcaption>LRAUVs and other AUVs support sustained autonomous profiling and adaptive ocean observing across moving water masses. <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span></figcaption>
+        <figcaption>AUVs maintain high-resolution while enabling sustained, adaptive observations across moving water masses. <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span></figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/pace-satellite.jpg' | relative_url }}" alt="Satellite view supporting global ocean observation.">
-        <figcaption>Satellite observations connect local measurements with global-scale patterns in ocean color, productivity, and plankton dynamics. <span class="image-credit">Image credit: <a href="https://svs.gsfc.nasa.gov/12469" target="_blank" rel="noopener noreferrer">NASA Scientific Visualization Studio</a>.</span></figcaption>
+        <figcaption>Satellite observations connect local measurements with global-scale patterns. <span class="image-credit">Image credit: NASA Scientific Visualization Studio</a>.</span></figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
-        <figcaption>Nets and other traditional sampling methods provide organismal, taxonomic, and biogeochemical ground truth for automated observations.</figcaption>
+        <figcaption>Traditional sampling methods provide ground truth for automated observations.</figcaption>
       </figure>
     </div>
   </div>
@@ -76,22 +76,22 @@ description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanog
   <div class="section-inner">
     <h2>Research Program</h2>
     <div class="cards">
-      <article class="card">
+      <a class="card card-link" href="{{ '/research/#biogeography' | relative_url }}">
         <h3>Biogeography</h3>
         <p>Defining dynamic plankton habitats from ocean observations so ecological boundaries move with river discharge, eddies, intrusions, and other water-mass gradients.</p>
-      </article>
-      <article class="card">
+      </a>
+      <a class="card card-link" href="{{ '/research/#community-structure' | relative_url }}">
         <h3>Community Structure</h3>
         <p>Using ecological statistics and community models to quantify how phytoplankton and zooplankton assemblages vary across space and time.</p>
-      </article>
-      <article class="card">
+      </a>
+      <a class="card card-link" href="{{ '/research/#ocean-technologies' | relative_url }}">
         <h3>Ocean Technologies</h3>
         <p>Combining computer vision, autonomous platforms, remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
-      </article>
-      <article class="card">
+      </a>
+      <a class="card card-link" href="{{ '/research/#harmful-algal-blooms' | relative_url }}">
         <h3>Harmful Algal Blooms</h3>
         <p>Identifying potentially toxic harmful algae species through microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments.</p>
-      </article>
+      </a>
     </div>
   </div>
 </section>

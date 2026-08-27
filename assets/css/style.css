@@ -205,9 +205,20 @@ h3 {
 .card {
   min-height: 100%;
   padding: 22px;
+  color: var(--ink);
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.card-link {
+  display: block;
+}
+
+.card-link:hover {
+  color: var(--ink);
+  border-color: var(--sea);
+  box-shadow: 0 14px 34px rgba(18, 60, 85, 0.12);
 }
 
 .media-band {
@@ -271,7 +282,7 @@ figcaption {
 .tech-strip figure {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .tech-strip img {

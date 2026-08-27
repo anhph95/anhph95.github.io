@@ -33,6 +33,11 @@ description: "Teaching and mentoring philosophy of Anh H. Pham."
     <figcaption>Ocean science teaching connects ecosystems, climate, technology, and human decisions.</figcaption>
   </figure>
 
+  <figure data-slide hidden>
+    <img src="{{ '/assets/media/really-nice-sunset.jpg' | relative_url }}" alt="Sunset over the ocean from a research vessel.">
+    <figcaption>Field experiences help students connect ocean observations with the changing environments behind the data.</figcaption>
+  </figure>
+
   <button class="carousel-button next" type="button" data-next aria-label="Next teaching image">›</button>
 
 </div>
