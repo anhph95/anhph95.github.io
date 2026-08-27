@@ -62,7 +62,7 @@ description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanog
       </figure>
       <figure>
         <img src="{{ '/assets/media/pace-satellite.jpg' | relative_url }}" alt="Satellite view supporting global ocean observation.">
-        <figcaption>Satellite observations connect local measurements with global-scale patterns. <span class="image-credit">Image credit: NASA Scientific Visualization Studio</a>.</span></figcaption>
+        <figcaption>Satellite observations connect local measurements with global-scale patterns. <span class="image-credit">Image credit: NASA Scientific Visualization Studio.</span></figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">

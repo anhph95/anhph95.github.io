@@ -272,7 +272,7 @@ figcaption {
   display: block;
   margin-top: 4px;
   color: rgba(217, 239, 235, 0.68);
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   line-height: 1.35;
 }
 
@@ -403,15 +403,21 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 28px;
-  margin: 28px 0;
+  margin: 18px 0 34px;
 }
 
-.course-columns h2 {
-  margin-top: 0;
+.course-columns section {
+  padding: 22px;
+  background: var(--surface);
+  border-left: 4px solid var(--deep);
+}
+
+.course-columns h3 {
+  margin-bottom: 12px;
 }
 
 .course-columns ul {
-  margin-top: 0;
+  margin: 0;
 }
 
 .site-footer {

@@ -58,26 +58,31 @@ I view reproducibility and communication as core parts of research training. Stu
 
 I create coding-training materials, including the <a href="https://github.com/anhph95/R_stats">R_stats</a> repository, to help learners build confidence with statistics, reproducible workflows, and ecological data analysis.
 
-<div class="course-columns" markdown="1">
+## Courses
 
-## Courses Taught
-
-- Introductory Biology
-- Organismal Biology
-- Ecology
-- Biostatistics
-- Experimental Design and Statistical Methods
-
-## Courses I Am Prepared to Teach
-
-- Marine Biology
-- Environmental Science
-- Biological Oceanography
-- Marine Ecology
-- Marine Biogeochemistry
-- Data Science
-- Remote Sensing
-
+<div class="course-columns">
+  <section>
+    <h3>Courses Taught</h3>
+    <ul>
+      <li>Introductory Biology</li>
+      <li>Organismal Biology</li>
+      <li>Ecology</li>
+      <li>Biostatistics</li>
+      <li>Experimental Design and Statistical Methods</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Courses I Am Prepared to Teach</h3>
+    <ul>
+      <li>Marine Biology</li>
+      <li>Environmental Science</li>
+      <li>Biological Oceanography</li>
+      <li>Marine Ecology</li>
+      <li>Marine Biogeochemistry</li>
+      <li>Data Science</li>
+      <li>Remote Sensing</li>
+    </ul>
+  </section>
 </div>
 
 ## Outreach
