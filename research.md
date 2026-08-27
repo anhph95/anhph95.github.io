@@ -125,7 +125,7 @@ My ocean technology work focuses on two connected areas: high-resolution sensors
     <video controls muted playsinline preload="metadata" poster="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}">
       <source src="{{ '/assets/media/shadowgraph-yolo-short.mp4' | relative_url }}" type="video/mp4">
     </video>
-    <figcaption>Computer vision transforms high-volume shadowgraph imagery into automated observations of plankton abundance and distribution.</figcaption>
+    <figcaption>Computer vision transforms high-volume shadowgraph imagery into automated observations of plankton abundance and distribution. I build end-to-end pipelines that connect annotation platforms, data integration, AI-assisted annotation, model inference, and visualization.</figcaption>
   </figure>
 
   <figure>

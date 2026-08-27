@@ -48,8 +48,9 @@ a:hover {
 
 .brand {
   color: var(--white);
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
   letter-spacing: 0;
 }
 
@@ -376,12 +377,14 @@ figcaption {
 }
 
 .page {
+  width: min(var(--max), calc(100% - 48px));
   max-width: var(--max);
   margin: 0 auto;
-  padding: 64px 24px;
+  padding: 64px 0;
 }
 
 .page h1 {
+  max-width: 100%;
   margin-bottom: 18px;
   font-size: clamp(2.3rem, 5vw, 4.2rem);
 }
@@ -394,6 +397,21 @@ figcaption {
 
 .page ul {
   padding-left: 1.2rem;
+}
+
+.course-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin: 28px 0;
+}
+
+.course-columns h2 {
+  margin-top: 0;
+}
+
+.course-columns ul {
+  margin-top: 0;
 }
 
 .site-footer {
@@ -435,7 +453,8 @@ figcaption {
   .two-column,
   .cards,
   .theme-gallery,
-  .visual-strip {
+  .visual-strip,
+  .course-columns {
     grid-template-columns: 1fr;
   }
 }
