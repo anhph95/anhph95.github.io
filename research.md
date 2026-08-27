@@ -1,4 +1,3 @@
-```html
 ---
 layout: default
 title: Research
@@ -55,7 +54,7 @@ Building on this framework, I integrate observations across platforms and scales
 
 </div>
 
-## Plankton Community Variability
+## Planktonic Community Variability
 
 High-frequency imaging records make it possible to view plankton communities as dynamic assemblages that reorganize across water masses, seasons, and years. By combining IFCB observations with community-level metrics and computational approaches, I uncover recurring ecological assemblages and track how plankton metacommunities emerge, persist, and reorganize through time.
 
@@ -114,8 +113,7 @@ The Stingray dashboard is available at <a href="https://stingraydash.whoi.edu" t
 ## Current Directions
 
 - Automated computer-vision pipelines for AI-assisted plankton data collection.
-- Artificial intelligence approaches (including natural language processing, generative AI, and variational autoencoders, etc.)for identifying structure in complex multispecies planktonic communities.
-- Integration of multiple data types, observaiton platforms to enable ecosystem-scale synthesis across space and time.
+- Artificial intelligence approaches (including natural language processing, generative AI, and variational autoencoders, etc.) for identifying structure in complex multispecies planktonic communities.
+- Integration of multiple data types and observation platforms to enable ecosystem-scale synthesis across space and time.
 
 </article>
-```
