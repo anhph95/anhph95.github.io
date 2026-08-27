@@ -458,3 +458,7 @@ figcaption {
 .carousel-dot[aria-pressed="true"] {
   background: var(--sea);
 }
+
+.tech-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}

@@ -8,8 +8,8 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
   <div class="hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Biological oceanography · plankton ecology · environmental data science</p>
-      <h1>AI-enabled ocean observing for dynamic plankton ecosystems.</h1>
-      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution. My work connects field observations, autonomous platforms, satellite sensing, imaging, and machine learning to understand how marine plankton communities change across space and time.</p>
+      <h1>AI-enabled observing systems for dynamic marine ecosystems.</h1>
+      <p class="lead">I am a Postdoctoral Investigator at Woods Hole Oceanographic Institution. My work connects field observations, autonomous platforms, satellite sensing, imaging, and machine learning to understand how marine planktonic communities change across space and time.</p>
       <div class="hero-links">
         <a class="button" href="{{ '/research/' | relative_url }}">Research Themes</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
@@ -17,7 +17,7 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     </div>
     <figure class="portrait-card">
       <img src="{{ '/assets/media/portrait.jpg' | relative_url }}" alt="Anh H. Pham at sea.">
-      <figcaption>Postdoctoral Investigator, Woods Hole Oceanographic Institution</figcaption>
+      <figcaption>Postdoctoral Investigator<br>Woods Hole Oceanographic Institution</figcaption>
     </figure>
   </div>
 </section>
@@ -30,9 +30,9 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
       <p>I earned my Ph.D. in Ocean Science and Engineering, with a minor in Applied Computer Science, from Georgia Tech. Before joining WHOI, I studied harmful algal species, phytoplankton functional groups, river-ocean mixing, and observation-based classification of planktonic habitats.</p>
     </div>
     <ul class="stat-list">
-      <li><strong>Current role</strong><br>Postdoctoral Investigator, WHOI Biology Department</li>
-      <li><strong>Training</strong><br>Ocean science, biological oceanography, biotechnology, and applied computer science</li>
-      <li><strong>Approach</strong><br>Field sampling, imaging, autonomous platforms, remote sensing, machine learning, and reproducible data systems</li>
+      <li><strong>Current role</strong><br>Postdoctoral Investigator<br>WHOI Biology Department</li>
+      <li><strong>Training</strong><br>Oceanography<br>Molecular Biology<br>Biogeochemistry<br>Applied Computer Science</li>
+      <li><strong>Approach</strong><br>Cytometry<br>Imaging<br>Autonomous platforms<br>Remote sensing<br>Machine learning</li>
     </ul>
   </div>
 </section>
@@ -40,19 +40,19 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
 <section class="section media-band">
   <div class="section-inner">
     <p class="eyebrow">Observation Technologies</p>
-    <h2>From ships and sensors to ecological data products</h2>
+    <h2>From high-resolution sensors to ecological data products</h2>
     <div class="visual-strip tech-strip">
       <figure>
         <img src="{{ '/assets/media/ctd.jpg' | relative_url }}" alt="CTD rosette over the ocean at sunset.">
-        <figcaption>Water-column sampling links biological observations to hydrography and chemistry.</figcaption>
+        <figcaption>CTD rosette enables measurement of environmental propeties and seawater sampling across the water column.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/stingray-tow-sled.jpg' | relative_url }}" alt="Stingray tow sled on a research vessel.">
-        <figcaption>Towed imaging platforms expand plankton observations across space and time.</figcaption>
+        <figcaption>Custom tow sled equipped with a suit of environmental sensors and imaging systems, expanding plankton observations across space and time.</figcaption>
       </figure>
       <figure>
         <img src="{{ '/assets/media/bongo-net.jpg' | relative_url }}" alt="Bongo net being recovered from the ocean.">
-        <figcaption>Net sampling grounds automated observations in organismal ecology and taxonomy.</figcaption>
+        <figcaption>Traditional sampling methods ground automated observations in organismal ecology and taxonomy.</figcaption>
       </figure>
     </div>
   </div>
@@ -64,15 +64,15 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     <div class="cards">
       <article class="card">
         <h3>Dynamic Planktonic Habitats and Biogeography</h3>
-        <p>Defining adaptive plankton habitats from ocean observations so ecological boundaries move with river plumes, floats, intrusions, and water-mass gradients.</p>
+        <p>Defining adaptive plankton habitats from ocean observations so ecological boundaries move with river discharge, eddies, intrusions, and other water-mass gradients.</p>
       </article>
       <article class="card">
         <h3>Planktonic Community Variability</h3>
-        <p>Using imaging records and community models to quantify how phytoplankton and zooplankton assemblages vary across shelf locations, seasons, and years.</p>
+        <p>Using ecological statistics and community models to quantify how phytoplankton and zooplankton assemblages vary across space and time.</p>
       </article>
       <article class="card">
         <h3>Advanced Ocean Technologies</h3>
-        <p>Combining computer vision, autonomous platforms, satellite remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
+        <p>Combining computer vision, autonomous platforms, remote sensing, dashboards, and reproducible data systems for scalable biological ocean observing.</p>
       </article>
     </div>
   </div>
@@ -83,9 +83,9 @@ description: "Anh H. Pham is a biological oceanographer building AI-enabled obse
     <div>
       <h2>Selected Work</h2>
       <ul class="publication-list">
-        <li><strong>Delineating marine planktonic habitats through Biogeochemical-Argo array data.</strong> <span class="meta">Journal of Geophysical Research: Oceans, 2025.</span></li>
-        <li><strong>Planktonic habitats in the Amazon Plume region of the western tropical North Atlantic.</strong> <span class="meta">Frontiers in Marine Science, 2024.</span></li>
-        <li><strong>Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf.</strong> <span class="meta">Limnology and Oceanography, 2026.</span></li>
+        <li><strong><a href="https://doi.org/10.1002/lno.70388">Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf.</a></strong> <span class="meta">Limnology and Oceanography, 2026.</span></li>      
+        <li><strong><a href="https://doi.org/10.1029/2025JC022543">Delineating marine planktonic habitats through Biogeochemical-Argo array data.</a></strong> <span class="meta">Journal of Geophysical Research: Oceans, 2025.</span></li>
+        <li><strong><a href="https://doi.org/10.3389/fmars.2024.1287497">Planktonic habitats in the Amazon Plume region of the western tropical North Atlantic.</a></strong> <span class="meta">Frontiers in Marine Science, 2024.</span></li>
       </ul>
     </div>
     <div>
