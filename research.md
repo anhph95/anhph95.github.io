@@ -58,7 +58,7 @@ Marine biogeography is often described through regional frameworks that divide t
 
 Dynamic environments such as river plumes, boundary currents, eddies, and water-mass intrusions create strong environmental gradients that plankton communities experience as moving habitats. In the western tropical North Atlantic, Amazon River discharge generates seasonal transitions from low-salinity, nutrient-rich plume waters to oligotrophic oceanic waters. At the basin scale, surface circulation connects equatorial currents, the North Brazil Current and its retroflection, the Gulf Stream, and mesoscale eddies that redistribute water masses and biological communities.
 
-<div class="theme-gallery equal-height-gallery">
+<div class="theme-gallery paired-gallery">
 
   <figure>
     <img src="{{ '/assets/media/dynamic-amazon-river-plume.gif' | relative_url }}" alt="Animated shipboard observation of Amazon River plume dynamics.">
@@ -92,7 +92,7 @@ High-frequency imaging records make it possible to view plankton communities as 
 
 One project addresses foundational questions in plankton ecology by examining variability in aggregate phytoplankton biomass and community composition across stations and years on the Northeast U.S. Shelf. Another brings methods inspired by natural language processing into community ecology, using approaches similar to Latent Dirichlet Allocation to uncover recurring patterns of taxon co-occurrence and represent plankton communities as mixtures of latent ecological assemblages rather than collections of isolated species.
 
-<div class="theme-gallery">
+<div class="theme-gallery paired-gallery">
 
   <figure>
     <img src="{{ '/assets/media/metacommunity-variability.png' | relative_url }}" alt="Metacommunity variability figure with annual and partitioned plankton community signals.">
@@ -119,29 +119,37 @@ In collaboration with the Department of Marine Plankton at the Institute of Ocea
 
 My ocean technology work focuses on two connected areas: high-resolution sensors and imaging systems that resolve fine-scale biological structure, and remote-sensing approaches that place those observations in their broader oceanographic context. Together, these approaches help connect organism-scale observations with shelf-scale and global-scale ecosystem patterns.
 
-<figure class="wide-figure">
-  <video controls muted playsinline preload="metadata" poster="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}">
-    <source src="{{ '/assets/media/shadowgraph-yolo-short.mp4' | relative_url }}" type="video/mp4">
-  </video>
-  <figcaption>Computer vision transforms high-volume shadowgraph imagery into automated observations of plankton abundance and distribution.</figcaption>
-</figure>
+<div class="theme-gallery paired-gallery">
 
-<figure class="wide-figure">
-  <img src="{{ '/assets/media/shadowgraph-zooplankton-distribution.jpg' | relative_url }}" alt="Shadowgraph-derived zooplankton distribution visualization.">
-  <figcaption>Automated image analysis connects individual organism detections to spatial patterns in zooplankton communities.</figcaption>
-</figure>
+  <figure>
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/media/shadowgraph-yolo-poster.jpg' | relative_url }}">
+      <source src="{{ '/assets/media/shadowgraph-yolo-short.mp4' | relative_url }}" type="video/mp4">
+    </video>
+    <figcaption>Computer vision transforms high-volume shadowgraph imagery into automated observations of plankton abundance and distribution.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ '/assets/media/shadowgraph-zooplankton-distribution.jpg' | relative_url }}" alt="Shadowgraph-derived zooplankton distribution visualization.">
+    <figcaption>Automated image analysis connects individual organism detections to spatial patterns in zooplankton communities.</figcaption>
+  </figure>
+
+</div>
 
 High-resolution imaging gains ecological meaning when paired with physical and biogeochemical context. On the Northeast U.S. Shelf, frontal structure, salinity intrusions, stratification, and cross-shelf gradients shape the environments sampled by imaging systems and mobile platforms, creating a bridge between local observations and broader remote-sensing products.
 
-<figure class="wide-figure">
-  <img src="{{ '/assets/media/northeast-us-shelf-physical-properties.jpg' | relative_url }}" alt="Northeast U.S. Shelf physical properties and frontal gradients.">
-  <figcaption>Physical gradients on the Northeast U.S. Shelf provide environmental context for interpreting high-resolution plankton observations.</figcaption>
-</figure>
+<div class="theme-gallery paired-gallery">
 
-<figure class="wide-figure">
-  <img src="{{ '/assets/media/phytoplankton-functional-type-remote-sensing.gif' | relative_url }}" alt="Animated remote-sensing view of phytoplankton functional types.">
-  <figcaption>Satellite observations extend local measurements to broadscale patterns in phytoplankton community structure.</figcaption>
-</figure>
+  <figure>
+    <img src="{{ '/assets/media/northeast-us-shelf-physical-properties.jpg' | relative_url }}" alt="Northeast U.S. Shelf physical properties and frontal gradients.">
+    <figcaption>Hydrographic conditions during the 2023 salinity maximum intrusion show how physical structure shaped the study region. Satellite sea surface temperature from August 10, 2023 shows Northeast U.S. Shelf Long-Term Ecological Research core stations, the 200-m isobath marking the shelf break, the warm Slope Sea and Gulf Stream context, and a warm-core ring at offshore stations L9-L11. The towed-vehicle salinity section from August 11-12, 2023 shows the vehicle track, the 34.5 PSU contour, and the maximum salinity layer within the intrusion.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{ '/assets/media/phytoplankton-functional-type-remote-sensing.gif' | relative_url }}" alt="Animated remote-sensing view of phytoplankton functional types.">
+    <figcaption>Satellite observations extend local measurements to broadscale patterns in phytoplankton community structure.</figcaption>
+  </figure>
+
+</div>
 
 ## Current Directions
 

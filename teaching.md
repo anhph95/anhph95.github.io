@@ -9,11 +9,6 @@ description: "Teaching and mentoring philosophy of Anh H. Pham."
 
 # Teaching and Mentoring
 
-<figure class="wide-figure teaching-header-image">
-  <img src="{{ '/assets/media/wind-farm-sun-set-long.png' | relative_url }}" alt="Offshore wind farm at sunset across the ocean horizon.">
-  <figcaption>Teaching ocean science means connecting ecosystems, technology, climate, and decisions across scales.</figcaption>
-</figure>
-
 <div class="carousel" data-carousel>
 
   <button class="carousel-button prev" type="button" data-prev aria-label="Previous teaching image">‹</button>
@@ -57,20 +52,23 @@ I also treat quantitative analysis as part of scientific reasoning rather than a
 
 A central goal of my teaching is to make complicated datasets and state-of-the-art observing technology accessible to students and researchers. The <a href="https://stingraydash.whoi.edu">Stingray dashboard</a> is a main example: it turns streams from imaging instruments and environmental sensors into visual products that students can explore, question, and interpret as real oceanographic evidence. I also create coding-training materials, including the <a href="https://github.com/anhph95/R_stats">R_stats</a> repository, to help learners build confidence with statistics, reproducible workflows, and ecological data analysis.
 
-## Courses I Can Teach
-
-My teaching experience and research background prepare me to contribute across biology, ecology, oceanography, and quantitative environmental science.
+## Courses Taught
 
 - Introductory Biology
 - Organismal Biology
 - Ecology
+- Biostatistics
+- Experimental Design and Statistical Methods
+
+## Courses I Can Teach
+
+My teaching experience and research background prepare me to contribute across biology, ecology, oceanography, and quantitative science.
+
 - Marine Biology
 - Environmental Science
 - Biological Oceanography
 - Marine Ecology
 - Marine Biogeochemistry
-- Biostatistics
-- Experimental Design and Statistical Methods
 - Data Science
 - Remote Sensing
 

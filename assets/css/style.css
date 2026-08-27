@@ -300,10 +300,6 @@ figcaption {
   object-fit: contain;
 }
 
-.teaching-header-image img {
-  max-height: 340px;
-  object-fit: cover;
-}
 
 .research-lead-figure {
   margin-top: 0;
@@ -323,16 +319,18 @@ figcaption {
   object-fit: contain;
 }
 
-.equal-height-gallery {
+.paired-gallery {
   align-items: start;
 }
 
-.equal-height-gallery figure {
+.paired-gallery figure {
   display: grid;
-  grid-template-rows: minmax(300px, 38vw) auto;
+  grid-template-rows: minmax(320px, 34vw) auto;
 }
 
-.equal-height-gallery img {
+.paired-gallery img,
+.paired-gallery video {
+  width: 100%;
   height: 100%;
   object-fit: contain;
 }
@@ -378,7 +376,7 @@ figcaption {
 }
 
 .page {
-  max-width: 960px;
+  max-width: var(--max);
   margin: 0 auto;
   padding: 64px 24px;
 }
