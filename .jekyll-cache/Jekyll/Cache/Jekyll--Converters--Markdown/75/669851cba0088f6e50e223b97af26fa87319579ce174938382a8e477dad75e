@@ -1,0 +1,223 @@
+I"�
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-name">Anh H. Pham</p>
+      <p class="eyebrow">Biological Oceanography · Plankton Ecology · Data Science</p>
+      <h1>AI-enabled observing systems for dynamic marine ecosystems.</h1>
+      <p class="lead">I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.</p>
+      <div class="hero-links">
+        
+        <a class="button" href="/research/">Research Themes</a>
+        
+        <a class="button secondary" href="/publications/">Publications</a>
+        
+      </div>
+    </div>
+    <figure class="portrait-card">
+      <img src="/assets/media/portrait.jpg" alt="Anh H. Pham at sea." />
+      <figcaption>Postdoctoral Investigator<br />Woods Hole Oceanographic Institution</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner two-column">
+    <div>
+      <h2>About</h2>
+      
+      <p>I am a computational oceanographer studying how physical ocean dynamics shape marine planktonic communities across coastal, shelf, and basin-scale environments. My work integrates field observations, shipboard and autonomous-platform datasets, satellite products, imaging systems, and machine-learning workflows to understand ecological variability that is difficult to capture with any single observing approach.
+</p>
+      
+      <p>At Woods Hole Oceanographic Institution, I use high-resolution observations and deep learning approaches to study plankton community variability on the Northeast U.S. Shelf. I also develop data-processing tools, quality-control workflows, and interactive dashboards that make complex ocean observing datasets easier to explore, synthesize, and use during field operations.
+</p>
+      
+      
+    </div>
+    <div>
+      
+      
+      <ul class="stat-list">
+        
+        <li><strong>Current role</strong><br />Postdoctoral Investigator<br />
+WHOI Biology Department</li>
+        
+        <li><strong>Training</strong><br />Oceanography<br />
+Biogeochemistry<br />
+Computer Science</li>
+        
+        <li><strong>Approach</strong><br />Cytometry<br />
+Imaging<br />
+Remote Sensing<br />
+Data Mining<br />
+Machine Learning</li>
+        
+      </ul>
+      
+      
+    </div>
+  </div>
+</section>
+
+<section class="section media-band">
+  <div class="section-inner">
+    <p class="eyebrow">Observation Technologies</p>
+    <h2>From high-resolution sensors to ecological data products</h2>
+    
+
+
+<div class="visual-strip tech-strip">
+  
+    
+<figure>
+  
+
+<img src="/assets/media/ctd.jpg" alt="CTD rosette over the ocean at sunset." />
+
+
+  
+  <figcaption><p>CTD rosettes provide detailed water-column profiles and seawater samples that anchor ocean observations.</p>
+</figcaption>
+  
+</figure>
+
+  
+    
+<figure>
+  
+
+<img src="/assets/media/bgc-argo-float.jpg" alt="Biogeochemical-Argo float being deployed at sea." />
+
+
+  
+  <figcaption><p>BGC-Argo floats extend ship-based observations through autonomous profiling across broad ocean regions. <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span></p>
+</figcaption>
+  
+</figure>
+
+  
+    
+<figure>
+  
+
+<img src="/assets/media/stingray-tow-sled.jpg" alt="Stingray tow sled on a research vessel." />
+
+
+  
+  <figcaption><p>Tow sleds resolve fine-scale variability between vertical profiles by sampling continuously along ship tracks.</p>
+</figcaption>
+  
+</figure>
+
+  
+    
+<figure>
+  
+
+<img src="/assets/media/lrauv.jpg" alt="Long-range autonomous underwater vehicle used for ocean observation." />
+
+
+  
+  <figcaption><p>AUVs maintain high-resolution while enabling sustained, adaptive observations across moving water masses. <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span></p>
+</figcaption>
+  
+</figure>
+
+  
+    
+<figure>
+  
+
+<img src="/assets/media/pace-satellite.jpg" alt="Satellite view supporting global ocean observation." />
+
+
+  
+  <figcaption><p>Satellite observations connect local measurements with global-scale patterns. <span class="image-credit">Image credit: NASA Scientific Visualization Studio.</span></p>
+</figcaption>
+  
+</figure>
+
+  
+    
+<figure>
+  
+
+<img src="/assets/media/bongo-net.jpg" alt="Bongo net being recovered from the ocean." />
+
+
+  
+  <figcaption><p>Traditional sampling methods provide ground truth for automated observations.</p>
+</figcaption>
+  
+</figure>
+
+  
+</div>
+
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="section-inner">
+    <h2>Research Program</h2>
+    <div class="cards">
+      
+      <a class="card card-link" href="/research/#biogeography">
+        <h3>Plankton Biogeography</h3>
+        <p>Studying plankton habitats as dynamic biological-environmental states shaped by river plumes, water masses, nutrients, seasonality, currents, and eddies.</p>
+      </a>
+      
+      <a class="card card-link" href="/research/#planktonic-community-structure">
+        <h3>Plankton Community Ecology</h3>
+        <p>Examining how plankton biomass, community composition, and recurring assemblages vary across water masses, seasons, and years.</p>
+      </a>
+      
+      <a class="card card-link" href="/research/#harmful-algal-blooms">
+        <h3>Harmful Algal Blooms</h3>
+        <p>Studying potentially harmful and toxin-producing algae through seasonal field observations, microscopy, morphology, phylogeny, and culture experiments.</p>
+      </a>
+      
+      <a class="card card-link" href="/research/#ocean-technologies">
+        <h3>Ocean Observing Technologies</h3>
+        <p>Building data systems and analysis workflows that connect mobile observing platforms, plankton imagery, remote sensing, and modeled ocean data.</p>
+      </a>
+      
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner two-column">
+    <div>
+      <h2>Selected Work</h2>
+      
+      
+      <ul class="publication-list">
+        
+        <li><strong><a href="https://doi.org/10.1002/lno.70388">Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf.</a></strong> <span class="meta">Limnology and Oceanography, 2026.</span>
+</li>
+        
+        <li><strong><a href="https://doi.org/10.1029/2025JC022543">Delineating marine planktonic habitats through Biogeochemical-Argo array data.</a></strong> <span class="meta">Journal of Geophysical Research: Oceans, 2025.</span>
+</li>
+        
+        <li><strong><a href="https://doi.org/10.3389/fmars.2024.1287497">Planktonic habitats in the Amazon Plume region of the western tropical North Atlantic.</a></strong> <span class="meta">Frontiers in Marine Science, 2024.</span>
+</li>
+        
+      </ul>
+      
+    </div>
+    <div>
+      <h2>Contact</h2>
+      
+      
+      <p>Email: <a href="mailto:anh.pham@whoi.edu">anh.pham@whoi.edu</a>
+</p>
+      
+      <p><a href="https://github.com/anhph95">GitHub</a><br /><a href="https://orcid.org/0000-0001-7827-6558">ORCID</a><br /><a href="https://scholar.google.com/citations?user=XSOR-4EAAAAJ&amp;hl=en">Google Scholar</a><br /><a href="https://www.linkedin.com/in/huyanhpham/">LinkedIn</a>
+</p>
+      
+    </div>
+  </div>
+</section>
+
+:ET

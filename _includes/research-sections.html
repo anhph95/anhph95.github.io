@@ -10,6 +10,11 @@
   <li>{{ item }}</li>
 {% endfor %}
 </ul>
+{% elsif block.kind == "subtheme" %}
+<section class="subtheme-card">
+  <h3>{{ block.title }}</h3>
+  {{ block.text | markdownify }}
+</section>
 {% elsif block.kind == "carousel" %}
 {% include carousel.html items=block.items label=block.label %}
 {% elsif block.kind == "gallery" %}

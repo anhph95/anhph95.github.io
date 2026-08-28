@@ -1,7 +1,7 @@
 hero:
   name: Anh H. Pham
   eyebrow: Biological Oceanography · Plankton Ecology · Data Science
-  title: AI-enabled observing systems for dynamic marine ecosystems.
+  title: AI-empowered insight into dynamic marine ecosystems.
   lead: I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.
   links:
     - label: Research Themes
@@ -51,7 +51,7 @@ observation_technologies:
       alt: Biogeochemical-Argo float being deployed at sea.
       caption: >-
         BGC-Argo floats extend ship-based observations through autonomous profiling across broad ocean regions.
-        <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span>
+        <span class="image-credit">Credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span>
     - src: /assets/media/stingray-tow-sled.jpg
       alt: Stingray tow sled on a research vessel.
       caption: Tow sleds resolve fine-scale variability between vertical profiles by sampling continuously along ship tracks.
@@ -59,12 +59,12 @@ observation_technologies:
       alt: Long-range autonomous underwater vehicle used for ocean observation.
       caption: >-
         AUVs maintain high-resolution while enabling sustained, adaptive observations across moving water masses.
-        <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span>
+        <span class="image-credit">Credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span>
     - src: /assets/media/pace-satellite.jpg
       alt: Satellite view supporting global ocean observation.
       caption: >-
         Satellite observations connect local measurements with global-scale patterns.
-        <span class="image-credit">Image credit: NASA Scientific Visualization Studio.</span>
+        <span class="image-credit">Credit: NASA Scientific Visualization Studio.</span>
     - src: /assets/media/bongo-net.jpg
       alt: Bongo net being recovered from the ocean.
       caption: Traditional sampling methods provide ground truth for automated observations.
@@ -73,18 +73,18 @@ research_program:
   title: Research Program
   class: alt
   items:
-    - title: Biogeography
+    - title: Plankton Biogeography
       url: /research/#biogeography
-      summary: Defining dynamic plankton habitats from ocean observations so ecological boundaries move with river discharge, currents, eddies, and water-mass gradients.
-    - title: Planktonic Community Structure
+      summary: Studying plankton habitats as dynamic biological-environmental states shaped by river plumes, water masses, nutrients, seasonality, currents, and eddies.
+    - title: Plankton Community Ecology
       url: /research/#planktonic-community-structure
-      summary: Using ecological statistics and community models to quantify how phytoplankton and zooplankton assemblages vary across space and time.
+      summary: Examining how plankton biomass, community composition, and recurring assemblages vary across water masses, seasons, and years.
     - title: Harmful Algal Blooms
       url: /research/#harmful-algal-blooms
-      summary: Identifying potentially toxic harmful algae species through microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments.
-    - title: Ocean Technologies
+      summary: Studying potentially harmful and toxin-producing algae through seasonal field observations, microscopy, morphology, phylogeny, and culture experiments.
+    - title: Ocean Observing Technologies
       url: /research/#ocean-technologies
-      summary: Combining high-resolution sensors, imaging systems, remote sensing, and reproducible data workflows for scalable biological ocean observing.
+      summary: Building data systems and analysis workflows that connect mobile observing platforms, plankton imagery, remote sensing, and modeled ocean data.
 
 selected_contact:
   left:
