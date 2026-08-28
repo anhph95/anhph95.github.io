@@ -1,75 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Research | Anh H. Pham</title>
-    <meta name="description" content="Research program of Anh H. Pham.">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="/assets/js/site.js" defer></script>
-    <!-- Begin Jekyll SEO tag v2.9.0 -->
-<meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Research" />
-<meta name="author" content="Anh H. Pham" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Research program of Anh H. Pham." />
-<meta name="twitter:description" property="og:description" content="Research program of Anh H. Pham." />
-<link rel="canonical" href="http://localhost:4000/research/" />
-<meta property="og:url" content="http://localhost:4000/research/" />
-<meta property="og:site_name" content="Anh H. Pham" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Research" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Anh H. Pham"},"description":"Research program of Anh H. Pham.","headline":"Research","url":"http://localhost:4000/research/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Anh H. Pham",
-        "alternateName": ["Anh Pham", "Huy Anh Pham"],
-        "jobTitle": "Postdoctoral Investigator",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "Woods Hole Oceanographic Institution",
-          "url": "https://www.whoi.edu"
-        },
-        "url": "http://localhost:4000/research/",
-        "sameAs": [
-          "https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en",
-          "https://orcid.org/0000-0001-7827-6558",
-          "https://github.com/anhph95",
-          "https://www.linkedin.com/in/huyanhpham/"
-        ],
-        "knowsAbout": [
-          "Computational oceanography",
-          "Biological oceanography",
-          "Plankton ecology",
-          "Biogeochemical-Argo",
-          "Remote sensing",
-          "Machine learning",
-          "Harmful algal blooms"
-        ]
-      }
-    </script>
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="/">Computational Oceanography Lab</a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="/">Home</a>
-        <a href="/research/">Research</a>
-        <a href="/publications/">Publications</a>
-        <a href="/teaching/">Teaching</a>
-        <a href="/assets/files/Anh-H-Pham-CV.pdf" download>CV</a>
-        <a href="https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en">Google Scholar</a>
-      </nav>
-    </header>
-
-    <main>
-      <article class="page research-page">
+I"8<article class="page research-page">
 
   <h1 id="research">Research</h1>
 
@@ -109,7 +38,7 @@
 
   <h2 id="biogeography">Plankton Biogeography</h2>
 
-  <p>Marine biogeography is often described using regional frameworks that divide the ocean into provinces, ecoregions, or assessment regions. These maps provide useful context, but plankton habitats are also shaped by moving gradients in salinity, nutrients, light, temperature, and water-column structure. We study these habitats as dynamic biological-environmental states rather than fixed boundaries on a map, drawing on work with the <a href="https://montoyalab.gatech.edu/" target="_blank" rel="noopener noreferrer">Montoya Lab at Georgia Tech</a>.</p>
+  <p>Marine biogeography is often described using regional frameworks that divide the ocean into provinces, ecoregions, or assessment regions. These maps provide useful context, but plankton habitats are also shaped by moving gradients in salinity, nutrients, light, temperature, and water-column structure. We study these habitats as dynamic biological-environmental states rather than fixed boundaries on a map.</p>
 
   <div class="carousel" data-carousel="">
   <button class="carousel-button prev" type="button" data-prev="" aria-label="Previous biogeography framework">‹</button>
@@ -219,7 +148,7 @@
   
 </figure>
 
-  <p>Through the <a href="https://nes-lter.whoi.edu/" target="_blank" rel="noopener noreferrer">Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER) program</a>, we study spatial, seasonal, and interannual variability in phytoplankton biomass and community composition. Metacommunity analyses help show when local communities change together and when species composition becomes less synchronized. We also use topic-modeling approaches to identify recurring assemblages within complex image-based plankton datasets.</p>
+  <p>On the Northeast U.S. Shelf, we study spatial, seasonal, and interannual variability in phytoplankton biomass and community composition. Metacommunity analyses help show when local communities change together and when species composition becomes less synchronized. We also use topic-modeling approaches to identify recurring assemblages within complex image-based plankton datasets.</p>
 
   <div class="theme-gallery paired-gallery">
   
@@ -255,7 +184,7 @@
 
   <h2 id="harmful-algal-blooms">Harmful Algal Blooms</h2>
 
-  <p>In collaboration with the Department of Marine Plankton at the <a href="https://vnio.org.vn/en/" target="_blank" rel="noopener noreferrer">Institute of Oceanography, Vietnam</a>, we study potentially harmful and toxin-producing algae in coastal waters. This work connects seasonal field observations, coastal habitats, microscopy, morphology, phylogeny, and culture experiments to improve species identification and understand when harmful taxa occur.</p>
+  <p>In collaboration with the Department of Marine Plankton at the Institute of Oceanography, Vietnam, we study potentially harmful and toxin-producing algae in coastal waters. This work connects seasonal field observations, coastal habitats, microscopy, morphology, phylogeny, and culture experiments to improve species identification and understand when harmful taxa occur.</p>
 
   <figure class="wide-figure">
   
@@ -384,17 +313,4 @@
 </ul>
 
 </article>
-
-    </main>
-
-    <footer class="site-footer">
-      <p>
-        <span>Woods Hole Oceanographic Institution</span>
-        <span><a href="mailto:anh.pham@whoi.edu">anh.pham@whoi.edu</a></span>
-        <span><a href="https://www.linkedin.com/in/huyanhpham/">LinkedIn</a></span>
-        <span><a href="https://orcid.org/0000-0001-7827-6558">ORCID</a></span>
-        <span><a href="https://github.com/anhph95">GitHub</a></span>
-      </p>
-    </footer>
-  </body>
-</html>
+:ET

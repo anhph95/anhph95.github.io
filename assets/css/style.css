@@ -41,7 +41,7 @@ a:hover {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 28px;
-  background: rgba(10, 45, 69, 0.97);
+  background: rgba(18, 78, 99, 0.97);
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(16px);
 }
@@ -49,7 +49,7 @@ a:hover {
 .brand {
   color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.35rem;
+  font-size: 1.55rem;
   font-weight: 600;
   letter-spacing: 0;
 }
@@ -209,9 +209,16 @@ h3 {
   width: 100%;
 }
 
+.research-page > h2 {
+  margin-top: 56px;
+  padding-bottom: 10px;
+  color: var(--deep);
+  border-bottom: 2px solid var(--deep);
+}
+
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -235,14 +242,16 @@ h3 {
 }
 
 .subtheme-card {
-  margin: 28px 0 18px;
-  padding: 18px 20px;
-  background: var(--surface);
-  border-left: 4px solid var(--deep);
+  margin: 22px 0 18px;
+  padding: 12px 16px;
+  background: transparent;
+  border-left: 2px solid var(--line);
 }
 
 .subtheme-card h3 {
   margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 1.08rem;
 }
 
 .subtheme-card p {
@@ -282,6 +291,11 @@ figure video {
 figure video {
   aspect-ratio: 960 / 722;
   object-fit: contain;
+}
+
+.research-page figure img,
+.research-page figure video {
+  border: 0;
 }
 
 figcaption {

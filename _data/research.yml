@@ -20,7 +20,12 @@ sections:
     title: Plankton Biogeography
     blocks:
       - kind: paragraph
-        text: Marine biogeography is often described using regional frameworks that divide the ocean into provinces, ecoregions, or assessment regions. These maps provide useful context, but plankton habitats are also shaped by moving gradients in salinity, nutrients, light, temperature, and water-column structure. We study these habitats as dynamic biological-environmental states rather than fixed boundaries on a map.
+        text: >-
+          Marine biogeography is often described using regional frameworks that divide the ocean into provinces, ecoregions,
+          or assessment regions. These maps provide useful context, but plankton habitats are also shaped by moving gradients
+          in salinity, nutrients, light, temperature, and water-column structure. We study these habitats as dynamic
+          biological-environmental states rather than fixed boundaries on a map, drawing on work with the
+          <a href="https://montoyalab.gatech.edu/" target="_blank" rel="noopener noreferrer">Montoya Lab at Georgia Tech</a>.
 
       - kind: carousel
         label: biogeography framework
@@ -80,7 +85,13 @@ sections:
         class: wide-figure
 
       - kind: paragraph
-        text: On the Northeast U.S. Shelf, we study spatial, seasonal, and interannual variability in phytoplankton biomass and community composition. Metacommunity analyses help show when local communities change together and when species composition becomes less synchronized. We also use topic-modeling approaches to identify recurring assemblages within complex image-based plankton datasets.
+        text: >-
+          Through the
+          <a href="https://nes-lter.whoi.edu/" target="_blank" rel="noopener noreferrer">Northeast U.S. Shelf Long-Term
+          Ecological Research (NES-LTER) program</a>, we study spatial, seasonal, and interannual variability in
+          phytoplankton biomass and community composition. Metacommunity analyses help show when local communities change
+          together and when species composition becomes less synchronized. We also use topic-modeling approaches to identify
+          recurring assemblages within complex image-based plankton datasets.
 
       - kind: gallery
         class: theme-gallery paired-gallery
@@ -100,12 +111,17 @@ sections:
     title: Harmful Algal Blooms
     blocks:
       - kind: paragraph
-        text: In collaboration with the Department of Marine Plankton at the Institute of Oceanography, Vietnam, we study potentially harmful and toxin-producing algae in coastal waters. This work connects seasonal field observations, coastal habitats, microscopy, morphology, phylogeny, and culture experiments to improve species identification and understand when harmful taxa occur.
+        text: >-
+          In collaboration with the Department of Marine Plankton at the
+          <a href="https://vnio.org.vn/en/" target="_blank" rel="noopener noreferrer">Institute of Oceanography, Vietnam</a>,
+          we study potentially harmful and toxin-producing algae in coastal waters. This work connects seasonal field
+          observations, coastal habitats, microscopy, morphology, phylogeny, and culture experiments to improve species
+          identification and understand when harmful taxa occur.
 
       - src: /assets/media/toxic-algae.png
         alt: Microscopic imagery of potentially harmful algal species.
         caption: >-
-          Microscopy, morphology, DNA sequencing, and culture experiments help distinguish potentially harmful algal species that can look similar under the microscope. This work improves identification of toxin-producing taxa in coastal Vietnamese waters.
+          Microscopy, morphology, DNA sequencing, and culture experiments help distinguish potentially harmful algal species that can look similar under the microscope. This work improves identification of toxin-producing taxa in coastal Vietnamese waters. Credit: Department of Marine Plankton, Institute of Oceanography, Vietnam.
         class: wide-figure
 
 

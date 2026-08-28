@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Teaching and Outreach
+title: Teaching
 permalink: /teaching/
 description: "Teaching, mentoring, and outreach philosophy of Anh H. Pham."
 ---
 
 <article class="page" markdown="1">
 
-# Teaching and Outreach
+# Teaching
 
 {% include teaching-sections.html %}
 
