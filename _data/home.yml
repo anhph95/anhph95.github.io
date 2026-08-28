@@ -1,0 +1,100 @@
+hero:
+  name: Anh H. Pham
+  eyebrow: Biological Oceanography · Plankton Ecology · Data Science
+  title: AI-enabled observing systems for dynamic marine ecosystems.
+  lead: I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.
+  links:
+    - label: Research Themes
+      url: /research/
+    - label: Publications
+      url: /publications/
+      variant: secondary
+  portrait:
+    src: /assets/media/portrait.jpg
+    alt: Anh H. Pham at sea.
+    caption: Postdoctoral Investigator<br>Woods Hole Oceanographic Institution
+
+about:
+  left:
+    title: About
+    paragraphs:
+      - I am a computational oceanographer studying how physical ocean dynamics shape marine planktonic communities across coastal, shelf, and basin-scale environments. My work integrates field observations, shipboard and autonomous-platform datasets, satellite products, imaging systems, and machine-learning workflows to understand ecological variability that is difficult to capture with any single observing approach.
+      - At Woods Hole Oceanographic Institution, I use high-resolution observations and deep learning approaches to study plankton community variability on the Northeast U.S. Shelf. I also develop data-processing tools, quality-control workflows, and interactive dashboards that make complex ocean observing datasets easier to explore, synthesize, and use during field operations.
+  right:
+    stats:
+      - label: Current role
+        value: |-
+          Postdoctoral Investigator
+          WHOI Biology Department
+      - label: Training
+        value: |-
+          Oceanography
+          Biogeochemistry
+          Computer Science
+      - label: Approach
+        value: |-
+          Cytometry
+          Imaging
+          Remote Sensing
+          Data Mining
+          Machine Learning
+
+observation_technologies:
+  eyebrow: Observation Technologies
+  title: From high-resolution sensors to ecological data products
+  grid_class: visual-strip tech-strip
+  items:
+    - src: /assets/media/ctd.jpg
+      alt: CTD rosette over the ocean at sunset.
+      caption: CTD rosettes provide detailed water-column profiles and seawater samples that anchor ocean observations.
+    - src: /assets/media/bgc-argo-float.jpg
+      alt: Biogeochemical-Argo float being deployed at sea.
+      caption: >-
+        BGC-Argo floats extend ship-based observations through autonomous profiling across broad ocean regions.
+        <span class="image-credit">Image credit: Emilie Diamond Riquier, IMEV - Institut de la Mer de Villefranche.</span>
+    - src: /assets/media/stingray-tow-sled.jpg
+      alt: Stingray tow sled on a research vessel.
+      caption: Tow sleds resolve fine-scale variability between vertical profiles by sampling continuously along ship tracks.
+    - src: /assets/media/lrauv.jpg
+      alt: Long-range autonomous underwater vehicle used for ocean observation.
+      caption: >-
+        AUVs maintain high-resolution while enabling sustained, adaptive observations across moving water masses.
+        <span class="image-credit">Image credit: Sean P. Whelan, Woods Hole Oceanographic Institution.</span>
+    - src: /assets/media/pace-satellite.jpg
+      alt: Satellite view supporting global ocean observation.
+      caption: >-
+        Satellite observations connect local measurements with global-scale patterns.
+        <span class="image-credit">Image credit: NASA Scientific Visualization Studio.</span>
+    - src: /assets/media/bongo-net.jpg
+      alt: Bongo net being recovered from the ocean.
+      caption: Traditional sampling methods provide ground truth for automated observations.
+
+research_program:
+  title: Research Program
+  class: alt
+  items:
+    - title: Biogeography
+      url: /research/#biogeography
+      summary: Defining dynamic plankton habitats from ocean observations so ecological boundaries move with river discharge, currents, eddies, and water-mass gradients.
+    - title: Planktonic Community Structure
+      url: /research/#planktonic-community-structure
+      summary: Using ecological statistics and community models to quantify how phytoplankton and zooplankton assemblages vary across space and time.
+    - title: Harmful Algal Blooms
+      url: /research/#harmful-algal-blooms
+      summary: Identifying potentially toxic harmful algae species through microscopic imaging, morphology analysis, DNA sequencing, bioinformatics, and culture experiments.
+    - title: Ocean Technologies
+      url: /research/#ocean-technologies
+      summary: Combining high-resolution sensors, imaging systems, remote sensing, and reproducible data workflows for scalable biological ocean observing.
+
+selected_contact:
+  left:
+    title: Selected Work
+    list:
+      - '**[Biological characterization of a mid-water salinity maximum intrusion over the Northeast U.S. Shelf.](https://doi.org/10.1002/lno.70388)** <span class="meta">Limnology and Oceanography, 2026.</span>'
+      - '**[Delineating marine planktonic habitats through Biogeochemical-Argo array data.](https://doi.org/10.1029/2025JC022543)** <span class="meta">Journal of Geophysical Research: Oceans, 2025.</span>'
+      - '**[Planktonic habitats in the Amazon Plume region of the western tropical North Atlantic.](https://doi.org/10.3389/fmars.2024.1287497)** <span class="meta">Frontiers in Marine Science, 2024.</span>'
+  right:
+    title: Contact
+    paragraphs:
+      - 'Email: [anh.pham@whoi.edu](mailto:anh.pham@whoi.edu)'
+      - '[GitHub](https://github.com/anhph95)<br>[ORCID](https://orcid.org/0000-0001-7827-6558)<br>[Google Scholar](https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en)<br>[LinkedIn](https://www.linkedin.com/in/huyanhpham/)'

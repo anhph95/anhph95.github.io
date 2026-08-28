@@ -1,0 +1,20 @@
+<h2>Peer-Reviewed Publications</h2>
+
+<ol>
+  {% for publication in site.data.publications.peer_reviewed %}
+  <li>
+    {{ publication.authors }}
+    {{ publication.title | markdownify | remove: '<p>' | remove: '</p>' }}
+    <em>{{ publication.journal }}</em>{% if publication.details %}, {{ publication.details }}{% endif %}, {{ publication.year }}.{% if publication.doi %}
+    <a href="{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+<h2>Selected Presentations</h2>
+
+<ul>
+  {% for presentation in site.data.publications.presentations %}
+  <li>"{{ presentation.title }}" {{ presentation.venue }}, {{ presentation.year }}.</li>
+  {% endfor %}
+</ul>

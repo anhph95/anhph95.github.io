@@ -1,0 +1,21 @@
+{% assign hero = site.data.home.hero %}
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-name">{{ hero.name }}</p>
+      <p class="eyebrow">{{ hero.eyebrow }}</p>
+      <h1>{{ hero.title }}</h1>
+      <p class="lead">{{ hero.lead }}</p>
+      <div class="hero-links">
+        {% for link in hero.links %}
+        <a class="button{% if link.variant %} {{ link.variant }}{% endif %}" href="{{ link.url | relative_url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <figure class="portrait-card">
+      <img src="{{ hero.portrait.src | relative_url }}" alt="{{ hero.portrait.alt }}">
+      <figcaption>{{ hero.portrait.caption }}</figcaption>
+    </figure>
+  </div>
+</section>

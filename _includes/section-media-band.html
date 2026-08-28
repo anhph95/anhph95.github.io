@@ -1,0 +1,9 @@
+{% assign section = include.section %}
+
+<section class="section media-band">
+  <div class="section-inner">
+    {% if section.eyebrow %}<p class="eyebrow">{{ section.eyebrow }}</p>{% endif %}
+    {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
+    {% include media-grid.html items=section.items class=section.grid_class %}
+  </div>
+</section>

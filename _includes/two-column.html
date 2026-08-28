@@ -1,0 +1,32 @@
+{% assign section = include.section %}
+
+<section class="section{% if section.class %} {{ section.class }}{% endif %}">
+  <div class="section-inner two-column">
+    <div>
+      {% if section.left.title %}<h2>{{ section.left.title }}</h2>{% endif %}
+      {% for paragraph in section.left.paragraphs %}
+      <p>{{ paragraph | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endfor %}
+      {% if section.left.list %}
+      <ul class="{{ section.left.list_class | default: 'publication-list' }}">
+        {% for item in section.left.list %}
+        <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <div>
+      {% if section.right.title %}<h2>{{ section.right.title }}</h2>{% endif %}
+      {% if section.right.stats %}
+      <ul class="stat-list">
+        {% for item in section.right.stats %}
+        <li><strong>{{ item.label }}</strong><br>{{ item.value | newline_to_br }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% for paragraph in section.right.paragraphs %}
+      <p>{{ paragraph | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>

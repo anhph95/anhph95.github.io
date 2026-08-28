@@ -1,0 +1,8 @@
+{% assign item = include.item %}
+{% if item.type == "video" %}
+<video controls muted playsinline preload="metadata"{% if item.poster %} poster="{{ item.poster | relative_url }}"{% endif %}>
+  <source src="{{ item.src | relative_url }}" type="{{ item.mime | default: 'video/mp4' }}">
+</video>
+{% else %}
+<img src="{{ item.src | relative_url }}" alt="{{ item.alt }}">
+{% endif %}

@@ -8,7 +8,7 @@
   --kelp: #2f6d4f;
   --coral: #c75f4a;
   --white: #ffffff;
-  --max: 1280px;
+  --max: 1180px;
 }
 
 * {
@@ -72,14 +72,14 @@ a:hover {
 }
 
 .hero {
-  padding: 64px max(24px, calc((100vw - var(--max)) / 2)) 44px;
+  padding: 56px max(24px, calc((100vw - var(--max)) / 2)) 40px;
   background: linear-gradient(135deg, #eef7f5 0%, #ffffff 58%, #f7f4ed 100%);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.52fr);
-  gap: 36px;
+  grid-template-columns: minmax(0, 1.05fr) minmax(260px, 0.46fr);
+  gap: 32px;
   align-items: center;
   max-width: var(--max);
   margin: 0 auto;
@@ -109,14 +109,14 @@ h3 {
 }
 
 h1 {
-  max-width: 780px;
+  max-width: 720px;
   margin: 0;
-  font-size: clamp(2.1rem, 5vw, 4.1rem);
+  font-size: clamp(2rem, 4.6vw, 3.65rem);
 }
 
 h2 {
   margin: 0 0 18px;
-  font-size: clamp(1.7rem, 3vw, 2.35rem);
+  font-size: clamp(1.6rem, 2.7vw, 2.15rem);
 }
 
 h3 {
@@ -125,13 +125,15 @@ h3 {
 }
 
 .lead {
-  max-width: 740px;
+  max-width: 680px;
   margin: 22px 0 0;
   color: #34444a;
-  font-size: clamp(1.02rem, 1.5vw, 1.18rem);
+  font-size: clamp(1rem, 1.35vw, 1.12rem);
 }
 
 .portrait-card {
+  justify-self: end;
+  width: min(100%, 380px);
   margin: 0;
   overflow: hidden;
   background: var(--deep);
@@ -179,7 +181,7 @@ h3 {
 }
 
 .section {
-  padding: 58px max(24px, calc((100vw - var(--max)) / 2));
+  padding: 50px max(24px, calc((100vw - var(--max)) / 2));
 }
 
 .section.alt {
@@ -194,7 +196,17 @@ h3 {
 .two-column {
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.28fr);
-  gap: 44px;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.two-column > :first-child {
+  justify-self: start;
+}
+
+.two-column > :last-child {
+  justify-self: end;
+  width: 100%;
 }
 
 .cards {
@@ -205,7 +217,7 @@ h3 {
 
 .card {
   min-height: 100%;
-  padding: 22px;
+  padding: 20px;
   color: var(--ink);
   background: var(--white);
   border: 1px solid var(--line);
@@ -234,8 +246,8 @@ h3 {
 .visual-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
-  margin-top: 24px;
+  gap: 16px;
+  margin-top: 22px;
 }
 
 figure {
@@ -262,6 +274,10 @@ figcaption {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+figcaption p {
+  margin: 0;
 }
 
 .media-band figcaption {
@@ -291,7 +307,7 @@ figcaption {
 }
 
 .wide-figure {
-  margin: 28px 0 34px;
+  margin: 24px 0 30px;
 }
 
 .wide-figure img,
@@ -309,8 +325,8 @@ figcaption {
 .theme-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  margin: 28px 0 36px;
+  gap: 18px;
+  margin: 24px 0 32px;
 }
 
 .theme-gallery img,
@@ -326,7 +342,7 @@ figcaption {
 
 .paired-gallery figure {
   display: grid;
-  grid-template-rows: minmax(320px, 34vw) auto;
+  grid-template-rows: minmax(280px, 30vw) auto;
 }
 
 .paired-gallery img,
@@ -345,7 +361,7 @@ figcaption {
 }
 
 .stat-list li {
-  padding: 16px;
+  padding: 14px;
   border-left: 4px solid var(--deep);
   background: var(--surface);
 }
@@ -380,17 +396,17 @@ figcaption {
   width: min(var(--max), calc(100% - 48px));
   max-width: var(--max);
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 56px 0;
 }
 
 .page h1 {
   max-width: 100%;
   margin-bottom: 18px;
-  font-size: clamp(2.3rem, 5vw, 4.2rem);
+  font-size: clamp(2.15rem, 4.6vw, 3.75rem);
 }
 
 .page h2 {
-  margin-top: 54px;
+  margin-top: 48px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
 }
@@ -462,6 +478,11 @@ figcaption {
   .visual-strip,
   .course-columns {
     grid-template-columns: 1fr;
+  }
+
+  .two-column > :first-child,
+  .two-column > :last-child {
+    justify-self: stretch;
   }
 }
 
@@ -541,5 +562,5 @@ figcaption {
 }
 
 .tech-strip {
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
 }

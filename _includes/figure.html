@@ -1,0 +1,7 @@
+{% assign item = include.item %}
+<figure{% if include.class %} class="{{ include.class }}"{% endif %}>
+  {% include figure-media.html item=item %}
+  {% if item.caption %}
+  <figcaption>{{ item.caption | markdownify }}</figcaption>
+  {% endif %}
+</figure>

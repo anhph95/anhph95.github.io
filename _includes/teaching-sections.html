@@ -1,0 +1,42 @@
+{% include carousel.html items=site.data.teaching.intro.carousel.items label=site.data.teaching.intro.carousel.label %}
+
+{% for paragraph in site.data.teaching.intro.paragraphs %}
+{{ paragraph | markdownify }}
+{% endfor %}
+
+{% for section in site.data.teaching.sections %}
+<h2>{{ section.title }}</h2>
+
+{% for block in section.blocks %}
+{% if block.kind == "paragraph" %}
+{{ block.text | markdownify }}
+{% elsif block.kind == "list" %}
+<ul>
+  {% for item in block.items %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+<h2>Courses</h2>
+
+<div class="course-columns">
+  {% for group in site.data.teaching.courses %}
+  <section>
+    <h3>{{ group.title }}</h3>
+    <ul>
+      {% for item in group.items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+<h2>{{ site.data.teaching.outreach.title }}</h2>
+
+{% for paragraph in site.data.teaching.outreach.paragraphs %}
+{{ paragraph | markdownify }}
+{% endfor %}

@@ -1,0 +1,60 @@
+intro:
+  carousel:
+    label: teaching image
+    items:
+      - src: /assets/media/flying-fish.jpg
+        alt: Flying fish photographed at sea.
+        caption: Field encounters make marine science tangible and memorable for students.
+      - src: /assets/media/seabirds.jpg
+        alt: Seabirds over the ocean.
+        caption: Visible marine life provides an entry point for discussing food webs, observation, and evidence.
+      - src: /assets/media/whale.jpg
+        alt: Whale at the ocean surface.
+        caption: Large marine organisms help connect plankton dynamics to broader ecosystem questions.
+      - src: /assets/media/wind-farm-sunset.jpg
+        alt: Offshore wind farm at sunset over the ocean.
+        caption: Ocean science teaching connects ecosystems, climate, technology, and human decisions.
+      - src: /assets/media/really-nice-sunset.jpg
+        alt: Sunset over the ocean from a research vessel.
+        caption: Field experiences help students connect ocean observations with the changing environments behind the data.
+  paragraphs:
+    - My teaching is centered on helping students connect biological understanding with quantitative reasoning. In ocean and environmental sciences, students increasingly need to move comfortably between organisms and ecosystems, observations and experiments, and statistics, computation, and large environmental datasets. I design courses around these connections so that quantitative tools remain grounded in scientific questions.
+
+sections:
+  - title: Teaching and Mentoring Philosophy
+    blocks:
+      - kind: paragraph
+        text: I teach from concrete systems toward general principles. In ecology and biological oceanography, concepts such as niches, succession, functional traits, stratification, and biogeochemical coupling become more meaningful when students encounter them through real observations. A plankton bloom, a river plume, a microscopy image, or an oceanographic time series can provide an intuitive starting point for developing broader ecological and oceanographic ideas.
+      - kind: paragraph
+        text: I also treat quantitative analysis as part of scientific reasoning rather than as a separate technical exercise. In statistics and data-science teaching, I emphasize interpretation, assumptions, uncertainty, experimental design, and communication. My goal is for students to understand not only how to perform an analysis, but also what biological question it addresses, what evidence it provides, and where its limitations lie.
+      - kind: paragraph
+        text: My mentoring philosophy emphasizes structured independence. I aim to provide students with clear expectations, regular feedback, and enough structure to make steady progress, while giving them increasing ownership of scientific questions and decisions as they develop confidence and expertise.
+      - kind: paragraph
+        text: Because my research spans ecology, oceanography, computation, and observing technology, I encourage students to build fluency across disciplinary boundaries. A student working with plankton imagery, for example, should understand the organisms being observed, the environmental context in which they occur, how the observations are generated, and the assumptions behind the analytical methods used to interpret them.
+      - kind: paragraph
+        text: I view reproducibility and communication as core parts of research training. Students learn to organize data and code, document analytical decisions, evaluate uncertainty, visualize results clearly, and communicate their reasoning to audiences with different backgrounds. My goal is to help students develop not only technical skills, but also the judgment and independence needed to become thoughtful scientists.
+      - kind: paragraph
+        text: I create coding-training materials, including the <a href="https://github.com/anhph95/R_stats">R_stats</a> repository, to help learners build confidence with statistics, reproducible workflows, and ecological data analysis.
+
+courses:
+  - title: Courses Taught
+    items:
+      - Introductory Biology
+      - Organismal Biology
+      - Ecology
+      - Biostatistics
+      - Experimental Design and Statistical Methods
+  - title: Courses I Am Prepared to Teach
+    items:
+      - Marine Biology
+      - Environmental Science
+      - Biological Oceanography
+      - Marine Ecology
+      - Marine Biogeochemistry
+      - Data Science
+      - Remote Sensing
+
+outreach:
+  title: Outreach
+  paragraphs:
+    - My outreach work focuses on bringing ocean science to broader communities and making complex observing systems easier to understand, explore, and use. The <a href="https://stingraydash.whoi.edu">Stingray dashboard</a> is a main example: it turns streams from imaging instruments and environmental sensors into accessible visual products that support student learning, field decision-making, and collaboration among researchers with different technical backgrounds.

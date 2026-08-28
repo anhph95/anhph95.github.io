@@ -1,0 +1,8 @@
+{% assign items = include.items %}
+{% assign classes = include.class | default: "visual-strip" %}
+
+<div class="{{ classes }}">
+  {% for item in items %}
+    {% include figure.html item=item %}
+  {% endfor %}
+</div>

@@ -1,0 +1,44 @@
+{% for section in site.data.research.sections %}
+<h2 id="{{ section.id }}">{{ section.title }}</h2>
+
+{% for block in section.blocks %}
+{% if block.kind == "paragraph" %}
+{{ block.text | markdownify }}
+{% elsif block.kind == "list" %}
+<ul>
+{% for item in block.items %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% elsif block.kind == "carousel" %}
+{% include carousel.html items=block.items label=block.label %}
+{% elsif block.kind == "gallery" %}
+{% include media-grid.html items=block.items class=block.class %}
+{% else %}
+{% include figure.html item=block class=block.class %}
+{% endif %}
+
+{% endfor %}
+{% unless section.blocks %}
+{% for paragraph in section.paragraphs %}
+{{ paragraph | markdownify }}
+{% endfor %}
+{% for block in section.media_blocks %}
+{% if block.kind == "carousel" %}
+{% include carousel.html items=block.items label=block.label %}
+{% elsif block.kind == "gallery" %}
+{% include media-grid.html items=block.items class=block.class %}
+{% else %}
+{% include figure.html item=block class=block.class %}
+{% endif %}
+
+{% endfor %}
+{% if section.list %}
+<ul>
+{% for item in section.list %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endunless %}
+{% endfor %}
