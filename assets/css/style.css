@@ -43,7 +43,7 @@ a:hover {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 28px;
-  background: rgba(5, 33, 52, 0.97);
+  background: rgba(8, 56, 77, 0.97);
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(16px);
 }
@@ -159,8 +159,8 @@ h3 {
 
 .portrait-name {
   display: block;
-  margin-bottom: 6px;
-  color: var(--sun);
+  margin-bottom: 2px;
+  color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.38rem;
   font-weight: 800;
@@ -463,8 +463,6 @@ figcaption p {
 
 .course-columns section {
   padding: 22px;
-  background: var(--surface);
-  border-left: 4px solid var(--deep);
 }
 
 .course-columns h3 {

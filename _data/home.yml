@@ -11,7 +11,7 @@ hero:
   portrait:
     src: /assets/media/portrait.jpg
     alt: Anh H. Pham at sea.
-    caption: <span class="portrait-name">Anh Huy Pham</span><br>PhD Ocean Science and Engineering<br>Georgia Institute of Technology, 2024
+    caption: <span class="portrait-name">Anh Huy Pham</span>PhD Ocean Science and Engineering<br>Georgia Institute of Technology, 2024
 
 about:
   left:

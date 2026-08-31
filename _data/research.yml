@@ -5,7 +5,7 @@ intro:
       - src: /assets/media/stingray-deployment.jpg
         alt: Stingray imaging platform deployment at sea.
         caption: >-
-          A Stingray tow-sled deployment illustrates how mobile platforms collect high-resolution biological and environmental observations along ship tracks. The research challenge is turning those fast, multi-sensor data streams into ecological information.
+          A Stingray tow-sled deployment. Once deployed, platforms like this can carry imaging and environmental sensors through the water column; the research challenge is connecting those observations to ecological patterns.
 
       - src: /assets/media/ctd-sampling-during-rough-sea.jpg
         alt: CTD sampling in rough sea conditions.
