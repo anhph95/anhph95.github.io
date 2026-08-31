@@ -1,5 +1,4 @@
 hero:
-  name: Anh H. Pham
   eyebrow: Biological Oceanography · Plankton Ecology · Data Science
   title: AI-empowered insight into dynamic marine ecosystems.
   lead: I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.
@@ -12,7 +11,7 @@ hero:
   portrait:
     src: /assets/media/portrait.jpg
     alt: Anh H. Pham at sea.
-    caption: Postdoctoral Investigator<br>Woods Hole Oceanographic Institution
+    caption: <span class="portrait-name">Anh Huy Pham</span><br>PhD Ocean Science and Engineering<br>Georgia Institute of Technology, 2024
 
 about:
   left:
@@ -25,7 +24,8 @@ about:
       - label: Current role
         value: |-
           Postdoctoral Investigator
-          WHOI Biology Department
+          Biology Department
+          Woods Hole Oceanographic Institution
       - label: Training
         value: |-
           Oceanography
@@ -73,18 +73,18 @@ research_program:
   title: Research Program
   class: alt
   items:
-    - title: Plankton Biogeography
-      url: /research/#biogeography
-      summary: Studying plankton habitats as dynamic biological-environmental states shaped by river plumes, water masses, nutrients, seasonality, currents, and eddies.
-    - title: Plankton Community Ecology
-      url: /research/#planktonic-community-structure
-      summary: Examining how plankton biomass, community composition, and recurring assemblages vary across water masses, seasons, and years.
     - title: Harmful Algal Blooms
       url: /research/#harmful-algal-blooms
-      summary: Studying potentially harmful and toxin-producing algae through seasonal field observations, microscopy, morphology, phylogeny, and culture experiments.
+      summary: Some phytoplankton species can harm marine life and coastal communities. We study when these algae appear, what conditions favor them, and how species identity shapes bloom risk.
+    - title: Plankton Biogeography
+      url: /research/#biogeography
+      summary: Plankton habitats shift with currents, seasons, river plumes, and ocean fronts. We study how these moving environments organize marine life across coastal and open-ocean regions.
+    - title: Plankton Ecology
+      url: /research/#planktonic-community-structure
+      summary: Plankton species interact, co-occur, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
     - title: Ocean Observing Technologies
       url: /research/#ocean-technologies
-      summary: Building data systems and analysis workflows that connect mobile observing platforms, plankton imagery, remote sensing, and modeled ocean data.
+      summary: Long-term plankton research depends on consistent observations across cruises, platforms, and changing technologies. We develop data and visualization tools that keep ecological questions connected.
 
 selected_contact:
   left:
