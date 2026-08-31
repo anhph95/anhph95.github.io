@@ -3,7 +3,7 @@
   --muted: #5d6b70;
   --line: #d6e5e2;
   --surface: #f3f8f6;
-  --surface-blue: #edf7f8;
+  --surface-blue: #f3f8f6;
   --sea: #0b7f89;
   --deep: #0b2f44;
   --kelp: #2f7158;
@@ -43,7 +43,7 @@ a:hover {
   justify-content: space-between;
   gap: 24px;
   padding: 18px 28px;
-  background: rgba(8, 44, 63, 0.97);
+  background: rgba(5, 33, 52, 0.97);
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(16px);
 }
@@ -266,7 +266,7 @@ h3 {
 }
 
 .media-band {
-  background: linear-gradient(135deg, #0e5c69 0%, #167b78 52%, #1f6d57 100%);
+  background: #102632;
   color: var(--white);
 }
 
