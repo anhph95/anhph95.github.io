@@ -20,7 +20,7 @@
       {% if section.right.stats %}
       <ul class="stat-list">
         {% for item in section.right.stats %}
-        <li><strong>{{ item.label }}</strong><br>{{ item.value | newline_to_br }}</li>
+        <li><strong>{{ item.label }}</strong><br>{{ item.value | markdownify | remove: '<p>' | remove: '</p>' | newline_to_br }}</li>
         {% endfor %}
       </ul>
       {% endif %}

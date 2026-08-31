@@ -5,7 +5,7 @@ intro:
       - src: /assets/media/stingray-deployment.jpg
         alt: Stingray imaging platform deployment at sea.
         caption: >-
-          A Stingray tow-sled deployment. Once deployed, platforms like this can carry imaging and environmental sensors through the water column; the research challenge is connecting those observations to ecological patterns.
+          A Stingray tow-sled recovery. Platforms like this can carry imaging and environmental sensors through the water column; the research challenge is connecting those observations to ecological patterns.
 
       - src: /assets/media/ctd-sampling-during-rough-sea.jpg
         alt: CTD sampling in rough sea conditions.
@@ -27,7 +27,7 @@ sections:
           In collaboration with the Department of Marine Plankton at the
           <a href="https://vnio.org.vn/en/" target="_blank" rel="noopener noreferrer">Institute of Oceanography, Vietnam</a>,
           we study potentially harmful and toxin-producing algae in coastal waters. This work connects seasonal field
-          observations, coastal habitats, microscopy, morphology, phylogeny, and culture experiments to improve species
+          observations, microscopy, morphology, phylogeny, and culture experiments to improve species
           identification and understand when harmful taxa occur. Closely related algae can have different ecological roles,
           toxin potential, and environmental tolerances, so species-level identification is central to interpreting bloom risk.
           In tropical coastal waters, warm temperatures, variable salinity, coral reefs, seagrass beds, seaweeds, and other
@@ -38,7 +38,7 @@ sections:
       - src: /assets/media/toxic-algae.png
         alt: Microscopic imagery of potentially harmful algal species.
         caption: >-
-          Microscopy, morphology, DNA sequencing, and culture experiments help distinguish potentially harmful algal species that can look similar under the microscope. This work improves identification of toxin-producing taxa in coastal Vietnamese waters, where knowing the species helps interpret bloom risk, toxin potential, ecological impact, and risks to marine food products. Credit: Department of Marine Plankton, Institute of Oceanography, Vietnam.
+          Morphological examination followed by DNA sequencing is essential for reliable species identification, especially for potentially harmful algal taxa that can look very similar under the microscope. Culture experiments can provide additional confirmation. Accurate species identification helps assess bloom risk, toxin potential, ecological impacts, and risks to marine food products in coastal Vietnamese waters. Credit: Department of Marine Plankton, Institute of Oceanography, Vietnam. (<a href="https://doi.org/10.3390/toxins17020081" target="_blank" rel="noopener noreferrer">Nguyen-Ngoc et al. 2025</a>)
         class: wide-figure
 
 
@@ -54,9 +54,9 @@ sections:
           frameworks that divide the ocean into provinces, ecoregions, or assessment regions. These maps provide useful context,
           but plankton habitats are also shaped by moving gradients in salinity, nutrients, light, temperature, and water-column
           structure. Because the water itself moves, plankton habitats can shift, merge, and separate over time, carrying
-          biological communities across the boundaries that appear fixed on a map. We study these habitats as dynamic
-          biological-environmental states rather than fixed geographic units, drawing on work with the
-          <a href="https://montoyalab.gatech.edu/" target="_blank" rel="noopener noreferrer">Montoya Lab at Georgia Tech</a>.
+          biological communities across the boundaries that appear fixed on a map. At the
+          <a href="https://montoyalab.gatech.edu/" target="_blank" rel="noopener noreferrer">Montoya Lab @ Georgia Tech</a>, 
+          we study these habitats as dynamic biological-environmental states rather than fixed geographic units.
           The same location can support different plankton communities under different seasonal, meteorological, or
           circulation conditions, and those changes influence productivity, food-web structure, and
           biogeochemical cycling.
@@ -67,17 +67,17 @@ sections:
           - src: /assets/media/global-biogeography-longhurst-province.png
             alt: Global ocean biogeography map with Longhurst provinces.
             caption: >-
-              Longhurst provinces divide the ocean into broad biogeochemical regions based on recurring patterns in phytoplankton biomass, seasonality, and ocean conditions. They provide a useful baseline for comparing large regions, but many plankton habitats shift at finer scales as fronts, eddies, river plumes, and water masses move through them.
+              Biogeochemical provinces based on recurring patterns in phytoplankton biomass, seasonality, and ocean conditions provide a useful baseline for comparing large regions, but many plankton habitats shift at finer scales as fronts, eddies, river plumes, and water masses move through them. (<a href="https://doi.org/10.1016/B978-0-12-455521-1.X5000-1" target="_blank" rel="noopener noreferrer">Longhurst 1998</a>)
 
           - src: /assets/media/global-biogeography-Spalding-marine-ecoregions.png
             alt: Global map of marine ecoregions.
             caption: >-
-              Marine ecoregions organize coastal and shelf ecosystems into comparable ecological units. They help frame biodiversity patterns, but plankton communities may respond more directly to moving water masses and local gradients than to fixed map boundaries.
+              Marine ecoregions organize coastal and shelf ecosystems into comparable ecological units. They help frame biodiversity patterns, but plankton communities may respond more directly to moving water masses and local gradients than to fixed map boundaries. (<a href="https://doi.org/10.1641/B570707" target="_blank" rel="noopener noreferrer">Spalding et al. 2007</a>)
 
           - src: /assets/media/global-biogeography-ipcc-ar6-marine-regions.png
             alt: Global map of IPCC AR6 marine regions.
             caption: >-
-              IPCC AR6 marine regions provide standardized areas for assessing climate-driven ocean change. We use these broad frameworks as context while asking how plankton habitats vary within and across them.
+              IPCC AR6 marine regions provide standardized areas for assessing climate-driven ocean change. We use these broad frameworks as context while asking how plankton habitats vary within and across them. (<a href="https://doi.org/10.5194/essd-12-2959-2020" target="_blank" rel="noopener noreferrer">Iturbide et al. 2020</a>)
 
       - kind: paragraph
         text: Dynamic features such as river plumes, boundary currents, eddies, fronts, and water-mass intrusions create shifting habitats for plankton. These features can change the nutrients, light, and physical structure that plankton experience, which means nearby waters may support different communities. In the western tropical North Atlantic, the Amazon River Plume forms a patchwork of river-influenced and oceanic waters that favor different phytoplankton groups, including nitrogen-fixing organisms and other taxa adapted to strong salinity and nutrient gradients. Across the basin, circulation and seasonal changes alter nutrient supply, subsurface chlorophyll structure, and the movement of biological communities, so plankton biogeography becomes a question of both place and timing.
@@ -88,12 +88,12 @@ sections:
           - src: /assets/media/dynamic-amazon-river-plume.gif
             alt: Animated shipboard observation of Amazon River plume dynamics.
             caption: >-
-              Shipboard observations in the western tropical North Atlantic show the Amazon River Plume forming a moving mosaic of low-salinity plume water and oceanic water. This gradient creates distinct habitats that favor different phytoplankton groups.
+              Shipboard observations in the western tropical North Atlantic show the Amazon River Plume forming a moving mosaic of low-salinity plume water and oceanic water. This gradient creates distinct habitats that favor different phytoplankton groups. (<a href="https://doi.org/10.3389/fmars.2024.1287497" target="_blank" rel="noopener noreferrer">Pham et al. 2024</a>)
 
           - src: /assets/media/north-atlantic-surface-velocity.gif
             alt: Animated North Atlantic sea surface velocity with major currents and eddies.
             caption: >-
-              Modeled North Atlantic surface velocity shows currents, eddies, and retroflection regions that transport and reshape water masses. These circulation features help explain how plankton communities are mixed, separated, and redistributed.
+              Modeled North Atlantic surface velocity shows currents, eddies, and retroflection regions that transport and reshape water masses. These circulation features help explain how plankton communities are mixed, separated, and redistributed. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
 
       - kind: paragraph
         text: To characterize these changing habitats, we use environmental and biogeochemical observations to identify recurring ocean states and compare the plankton communities associated with them. Repeated combinations of temperature, salinity, nutrients, oxygen, light, and chlorophyll reveal habitat structure that may not follow geographic boundaries. One contribution of this work is using unsupervised learning, including hierarchical clustering and principal component analysis, to let the observations define habitat types rather than forcing samples into pre-set regions. Applied to Biogeochemical-Argo profiles, this approach provides a finer-scale and more flexible view of plankton habitats than static province maps, while still being scalable across large ocean regions and comparable with satellite-derived phytoplankton functional types.
@@ -101,7 +101,7 @@ sections:
       - src: /assets/media/habitat-delineation-machine-learning.png
         alt: Hierarchical clustering and principal component analysis for habitat delineation from environmental and biogeochemical observations.
         caption: >-
-          Hierarchical clustering and principal component analysis (PCA) applied to biogeochemical observations classify dynamic plankton habitats along water-mass, nutrient, and chlorophyll gradients rather than fixed geographic boundaries. These unsupervised methods are useful because they reduce many measurements into interpretable patterns of habitat similarity and difference, then allow biological observations from floats, ships, and satellites to be compared within those data-defined habitats.
+          Hierarchical clustering and principal component analysis (PCA) applied to biogeochemical observations classify dynamic plankton habitats along water-mass, nutrient, and chlorophyll gradients rather than fixed geographic boundaries. These unsupervised methods are useful because they reduce many measurements into interpretable patterns of habitat similarity and difference, then allow biological observations from floats, ships, and satellites to be compared within those data-defined habitats. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
         class: wide-figure
 
 
@@ -203,7 +203,7 @@ sections:
           - src: /assets/media/shadowgraph-zooplankton-distribution.jpg
             alt: Shadowgraph-derived zooplankton distribution visualization.
             caption: >-
-              Shadowgraph-derived zooplankton detections are mapped along the sampling transect to show where organisms occur in relation to depth and location. This connects individual image detections to spatial patterns in plankton abundance and helps identify layers, hotspots, or habitat associations that would be hard to see from station samples alone.
+              Shadowgraph-derived zooplankton detections are mapped along the sampling transect to show where organisms occur in relation to depth and location. This connects individual image detections to spatial patterns in plankton abundance and helps identify layers, hotspots, or habitat associations that would be hard to see from station samples alone. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
 
       - kind: subtheme
         title: Environmental Data Integration
@@ -222,12 +222,12 @@ sections:
           - src: /assets/media/northeast-us-shelf-physical-properties.jpg
             alt: Northeast U.S. Shelf physical properties and frontal gradients.
             caption: >-
-              Satellite sea-surface temperature and towed-vehicle salinity observations show a 2023 salinity-maximum intrusion over the Northeast U.S. Shelf. The intrusion brought warm, salty slope water onto the shelf and created a pathway for offshore biological communities, including plankton, zooplankton, and larval fish, to move into shelf habitats.
+              Satellite sea-surface temperature and towed-vehicle salinity observations show a 2023 salinity-maximum intrusion over the Northeast U.S. Shelf. The intrusion brought warm, salty slope water onto the shelf and created a pathway for offshore biological communities, including plankton, zooplankton, and larval fish, to move into shelf habitats. (<a href="https://doi.org/10.1002/lno.70388" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
 
           - src: /assets/media/phytoplankton-functional-type-remote-sensing.gif
             alt: Animated remote-sensing view of phytoplankton functional types.
             caption: >-
-              Satellite-derived phytoplankton functional type data estimate broad groups such as diatoms, dinoflagellates, haptophytes, and cyanobacteria. These products help connect local biological observations to regional and basin-scale community patterns.
+              Satellite-derived phytoplankton functional type data estimate broad groups such as diatoms, dinoflagellates, haptophytes, and cyanobacteria. These products help connect local biological observations to regional and basin-scale community patterns. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
 
   - id: current-directions
     title: Current Directions

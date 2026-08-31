@@ -11,7 +11,7 @@ hero:
   portrait:
     src: /assets/media/portrait.jpg
     alt: Anh H. Pham at sea.
-    caption: <span class="portrait-name">Anh Huy Pham</span>PhD Ocean Science and Engineering<br>Georgia Institute of Technology, 2024
+    caption: <span class="portrait-name">Dr. Anh Huy Pham</span>
 
 about:
   left:
@@ -23,21 +23,15 @@ about:
     stats:
       - label: Current role
         value: |-
-          Postdoctoral Investigator
-          Biology Department
-          Woods Hole Oceanographic Institution
-      - label: Training
+          Postdoctoral Investigator,
+          Biology Department,
+          [Woods Hole Oceanographic Institution](https://www.whoi.edu/)
+      - label: Education
         value: |-
-          Oceanography
-          Biogeochemistry
-          Computer Science
-      - label: Approach
-        value: |-
-          Cytometry
-          Imaging
-          Remote Sensing
-          Data Mining
-          Machine Learning
+          Ph.D. Ocean Science and Engineering,
+          [Georgia Institute of Technology](https://ocean.gatech.edu/), 2024
+          S.B. Biotechnology,
+          [International University](https://bt.hcmiu.edu.vn/), 2018
 
 observation_technologies:
   eyebrow: Observation Technologies

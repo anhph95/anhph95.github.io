@@ -26,11 +26,11 @@ sections:
       - kind: paragraph
         text: >-
           My teaching spans introductory biology, organismal biology, ecology, biological oceanography, environmental science,
-          statistics, and data science. Students work with examples from marine and environmental systems, including
+          statistics, and data science. Students will work with examples from marine and environmental systems, including
           plankton communities, oceanographic time series, field observations, microscopy images, and satellite products.
       - kind: paragraph
         text: >-
-          In class, students practice moving between natural history, ecological concepts, quantitative reasoning, and scientific
+          In class, students will practice moving between ecological concepts, quantitative reasoning, and scientific
           communication. The goal is to understand how observations become evidence and how evidence supports an ecological
           interpretation.
 
