@@ -574,14 +574,18 @@ figcaption p {
 
 .intro-carousel {
   width: min(100%, 720px);
+  aspect-ratio: 3 / 2;
+}
+
+.intro-carousel figure {
+  height: 100%;
 }
 
 .intro-carousel img,
 .intro-carousel video {
   width: 100%;
-  aspect-ratio: 3 / 2;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel [hidden] {
