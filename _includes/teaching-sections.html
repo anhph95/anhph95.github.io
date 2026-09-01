@@ -1,5 +1,3 @@
-{% include carousel.html items=site.data.teaching.intro.carousel.items label=site.data.teaching.intro.carousel.label class="intro-carousel teaching-intro-carousel" %}
-
 {% for paragraph in site.data.teaching.intro.paragraphs %}
 {{ paragraph | markdownify }}
 {% endfor %}

@@ -1,7 +1,17 @@
 {% assign hero = site.data.home.hero %}
 
 <section class="hero">
-  <div class="hero-grid">
+  {% if hero.carousel.items %}
+  <div class="hero-bg-slider" data-hero-slider>
+    {% for item in hero.carousel.items %}
+    <div class="hero-bg-slide{% if forloop.first %} is-active{% endif %}" role="img" aria-label="{{ item.alt }}" style="background-image: url('{{ item.src | relative_url }}');"></div>
+    {% endfor %}
+    <button class="hero-bg-button prev" type="button" data-hero-prev aria-label="Previous {{ hero.carousel.label | default: 'homepage landscape' }}">‹</button>
+    <button class="hero-bg-button next" type="button" data-hero-next aria-label="Next {{ hero.carousel.label | default: 'homepage landscape' }}">›</button>
+  </div>
+  {% endif %}
+
+  <div class="hero-content">
     <div class="hero-copy">
       <p class="eyebrow">{{ hero.eyebrow }}</p>
       <h1>{{ hero.title }}</h1>
@@ -12,9 +22,5 @@
         {% endfor %}
       </div>
     </div>
-    <figure class="portrait-card">
-      <img src="{{ hero.portrait.src | relative_url }}" alt="{{ hero.portrait.alt }}">
-      <figcaption>{{ hero.portrait.caption }}</figcaption>
-    </figure>
   </div>
 </section>

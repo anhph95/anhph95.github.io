@@ -40,3 +40,42 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
   if (next) next.addEventListener("click", () => show(active + 1));
   show(0);
 });
+
+document.querySelectorAll("[data-hero-slider]").forEach((slider) => {
+  const slides = Array.from(slider.querySelectorAll(".hero-bg-slide"));
+  const prev = slider.querySelector("[data-hero-prev]");
+  const next = slider.querySelector("[data-hero-next]");
+  let active = 0;
+  let timer;
+
+  function show(index) {
+    active = (index + slides.length) % slides.length;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("is-active", i === active);
+    });
+  }
+
+  function start() {
+    window.clearInterval(timer);
+    timer = window.setInterval(() => show(active + 1), 6500);
+  }
+
+  if (slides.length <= 1) {
+    if (prev) prev.hidden = true;
+    if (next) next.hidden = true;
+    return;
+  }
+
+  if (prev) prev.addEventListener("click", () => {
+    show(active - 1);
+    start();
+  });
+
+  if (next) next.addEventListener("click", () => {
+    show(active + 1);
+    start();
+  });
+
+  show(0);
+  start();
+});

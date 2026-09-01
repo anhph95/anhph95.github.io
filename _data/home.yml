@@ -2,17 +2,27 @@ hero:
   eyebrow: Biological Oceanography · Plankton Ecology · Data Science
   title: AI-empowered insight into dynamic marine ecosystems.
   lead: I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.
+  carousel:
+    label: homepage landscape
+    items:
+      - src: /assets/media/hero/flying-fish.jpg
+        alt: Flying fish underwater.
+      - src: /assets/media/hero/seabird.jpg
+        alt: Seabird flying above the ocean.
+      - src: /assets/media/hero/sunset.jpg
+        alt: Sunset over the ocean.
+      - src: /assets/media/hero/whale.jpg
+        alt: Whale fluke above the ocean surface.
+      - src: /assets/media/hero/wind-farm-sunset.jpg
+        alt: Offshore wind farm at sunset.
+      - src: /assets/media/hero/windmill.jpg
+        alt: Offshore wind turbine over the ocean.
   links:
     - label: Research Themes
       url: /research/
     - label: Publications
       url: /publications/
       variant: secondary
-  portrait:
-    src: /assets/media/portrait.jpg
-    alt: Anh H. Pham at sea.
-    caption: <span class="portrait-name">Dr. Anh Huy Pham</span>
-
 about:
   left:
     title: About
@@ -20,6 +30,10 @@ about:
       - I am a computational oceanographer studying how physical ocean dynamics shape marine planktonic communities across coastal, shelf, and basin-scale environments. My work integrates field observations, shipboard and autonomous-platform datasets, satellite products, imaging systems, and machine-learning workflows to understand ecological variability that is difficult to capture with any single observing approach.
       - At Woods Hole Oceanographic Institution, I use high-resolution observations and deep learning approaches to study plankton community variability on the Northeast U.S. Shelf. I also develop data-processing tools, quality-control workflows, and interactive dashboards that make complex ocean observing datasets easier to explore, synthesize, and use during field operations.
   right:
+    portrait:
+      src: /assets/media/portrait.jpg
+      alt: Anh H. Pham at sea.
+      caption: <span class="portrait-name">Dr. Anh Huy Pham</span>
     stats:
       - label: Current role
         value: |-
@@ -68,16 +82,16 @@ research_program:
   class: alt
   items:
     - title: Harmful Algal Blooms
-      url: /research/#harmful-algal-blooms
+      url: /research/hab/
       summary: Some phytoplankton species can harm marine life and coastal communities. We study when these algae appear, what conditions favor them, and how species identity shapes bloom risk.
     - title: Plankton Biogeography
-      url: /research/#biogeography
+      url: /research/biogeography/
       summary: Plankton habitats shift with currents, seasons, river plumes, and ocean fronts. We study how these moving environments organize marine life across coastal and open-ocean regions.
     - title: Plankton Ecology
-      url: /research/#planktonic-community-structure
+      url: /research/ecology/
       summary: Plankton species interact, co-occur, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
     - title: Ocean Observing Technologies
-      url: /research/#ocean-technologies
+      url: /research/technologies/
       summary: Long-term plankton research depends on consistent observations across cruises, platforms, and changing technologies. We develop data and visualization tools that keep ecological questions connected.
 
 selected_contact:

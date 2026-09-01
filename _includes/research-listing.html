@@ -1,0 +1,15 @@
+{% assign research_pages = site.research | sort: "order" %}
+
+<div class="research-listing">
+  {% for item in research_pages %}
+  <a class="research-card" href="{{ item.url | relative_url }}">
+    {% if item.image %}
+    <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title }}">
+    {% endif %}
+    <span class="research-card-body">
+      <strong>{{ item.title }}</strong>
+      {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
+    </span>
+  </a>
+  {% endfor %}
+</div>

@@ -16,6 +16,14 @@ description: "Research program of Anh H. Pham."
 
 {% endfor %}
 
-{% include research-sections.html %}
+{% include research-listing.html %}
+
+<h2>{{ site.data.research.current_directions.title }}</h2>
+
+<ul>
+{% for item in site.data.research.current_directions.items %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
 
 </article>

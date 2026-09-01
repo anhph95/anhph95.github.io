@@ -1,9 +1,23 @@
 {% assign section = include.section %}
 
 <section class="section{% if section.class %} {{ section.class }}{% endif %}">
-  <div class="section-inner two-column">
-    <div>
+  <div class="section-inner{% if section.right.portrait %} about-section{% else %} two-column{% endif %}">
+    {% if section.right.portrait and section.left.title %}
+    <h2>{{ section.left.title }}</h2>
+    {% endif %}
+    {% if section.right.portrait %}
+    <div class="about-grid">
+    {% endif %}
+    {% if section.right.portrait %}
+    <figure class="portrait-card about-portrait">
+      <img src="{{ section.right.portrait.src | relative_url }}" alt="{{ section.right.portrait.alt }}">
+      <figcaption>{{ section.right.portrait.caption }}</figcaption>
+    </figure>
+    {% endif %}
+    <div class="about-copy">
+      {% unless section.right.portrait %}
       {% if section.left.title %}<h2>{{ section.left.title }}</h2>{% endif %}
+      {% endunless %}
       {% for paragraph in section.left.paragraphs %}
       <p>{{ paragraph | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endfor %}
@@ -28,5 +42,8 @@
       <p>{{ paragraph | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endfor %}
     </div>
+    {% if section.right.portrait %}
+    </div>
+    {% endif %}
   </div>
 </section>

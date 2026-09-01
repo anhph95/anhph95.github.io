@@ -11,7 +11,7 @@ editing the main page templates.
 ### Main files
 
 - Edit homepage content in `_data/home.yml`.
-- Edit research-page content in `_data/research.yml`.
+- Edit research-page content in `_research/`.
 - Edit publications and presentations in `_data/publications.yml`.
 - Edit teaching, mentoring, courses, outreach, and teaching slideshow content in
   `_data/teaching.yml`.
@@ -26,74 +26,99 @@ In `_data/home.yml`, add a new item under `research_program.items`:
 
 ```yaml
     - title: New Research Program
-      url: /research/#new-research-program
+      url: /research/new-theme/
       summary: Short homepage description of the new research direction.
 ```
 
-Use the same `url` anchor as the matching research section `id` in
-`_data/research.yml`.
+Use the same `url` as the matching research page permalink in `_research/`.
 
-### Add a new research section
+### Add or edit a research page
 
-In `_data/research.yml`, add a new item under `sections`:
+Research pages are Jekyll collection files in `_research/`. To edit an existing
+research page, edit one of these files:
 
-```yaml
-  - id: new-research-program
-    title: New Research Program
-    blocks:
-      - kind: paragraph
-        text: >-
-          First paragraph explaining the scientific question, study system,
-          methods, or key finding.
-      - src: /assets/media/new-plot.png
-        alt: Description of the plot for screen readers.
-        caption: Caption explaining what the plot shows.
-        class: wide-figure
+```text
+_research/hab.md
+_research/biogeography.md
+_research/ecology.md
+_research/technologies.md
+_research/directions.md
 ```
 
-The `id` becomes the page anchor, so `/research/#new-research-program` links to
-this section.
+To add a new research page, create one new Markdown file in `_research/`:
+
+```markdown
+---
+layout: default
+title: New Research Theme
+summary: Short description for the main research listing page.
+image: /assets/media/new-research-image.jpg
+image_alt: Description of the listing image for screen readers.
+order: 6
+permalink: /research/new-theme/
+---
+
+<article class="page research-page" markdown="1">
+
+# {{ page.title }}
+
+Write the full research page here.
+
+</article>
+```
+
+The main `/research/` page scans `_research/` automatically, sorts by `order`,
+and uses `title`, `summary`, `image`, and `image_alt` to build the browsing
+cards.
 
 ### Add a plot or photo
 
 Put the file in `assets/media/`, then add a figure block wherever it should
-appear in a research section:
+appear in a research page's front matter:
 
 ```yaml
-      - src: /assets/media/new-photo.jpg
-        alt: Description of the photo for screen readers.
-        caption: Caption explaining the context.
-        class: wide-figure
+figure:
+  src: /assets/media/new-photo.jpg
+  alt: Description of the photo for screen readers.
+  caption: Caption explaining the context.
 ```
 
-Use `class: wide-figure` for a full-width figure. Leave `class` out when the
-figure is inside a gallery or slideshow.
+Then render it in the page body:
+
+```liquid
+{% include figure.html item=page.figure class="wide-figure" %}
+```
 
 ### Add two side-by-side figures
 
-Add a gallery block to a section's `blocks` list:
+For research pages, add page-specific media data to the file's front matter:
 
 ```yaml
-      - kind: gallery
-        class: theme-gallery paired-gallery
-        items:
-          - src: /assets/media/first-plot.png
-            alt: Description of the first plot.
-            caption: Caption for the first plot.
-          - src: /assets/media/second-plot.png
-            alt: Description of the second plot.
-            caption: Caption for the second plot.
+gallery:
+  - src: /assets/media/first-plot.png
+    alt: Description of the first plot.
+    caption: Caption for the first plot.
+  - src: /assets/media/second-plot.png
+    alt: Description of the second plot.
+    caption: Caption for the second plot.
+```
+
+Then render it in the page body:
+
+```liquid
+{% include media-grid.html items=page.gallery class="theme-gallery paired-gallery" %}
 ```
 
 ### Add a photo to an existing slideshow
 
-Find the slideshow block in `_data/research.yml`, then add another item under
-its `items` list:
+For the shared research intro slideshow, edit `_data/research.yml`. For a
+slideshow on a specific research page, edit that page in `_research/`. Add a
+new item under the slideshow's `items` list:
 
 ```yaml
-          - src: /assets/media/new-slide.jpg
-            alt: Description of the new slideshow image.
-            caption: Caption for the new slide.
+    - src: /assets/media/new-slide.jpg
+      alt: Description of the new slideshow image.
+      caption: Caption for the new slide.
 ```
 
 The slideshow controls and dots are generated automatically.
@@ -103,11 +128,11 @@ The slideshow controls and dots are generated automatically.
 Put the video and poster image in `assets/media/`, then add a video item:
 
 ```yaml
-          - type: video
-            src: /assets/media/new-video.mp4
-            poster: /assets/media/new-video-poster.jpg
-            alt: Description of the video.
-            caption: Caption explaining the video.
+  - type: video
+    src: /assets/media/new-video.mp4
+    poster: /assets/media/new-video-poster.jpg
+    alt: Description of the video.
+    caption: Caption explaining the video.
 ```
 
 ### Add a peer-reviewed publication

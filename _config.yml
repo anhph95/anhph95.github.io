@@ -26,6 +26,11 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
 # Plugins for better features
 plugins:
   - jekyll-seo-tag
