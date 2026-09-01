@@ -22,7 +22,8 @@ body {
   color: var(--ink);
   background: var(--white);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 a {
@@ -41,8 +42,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 18px 28px;
+  gap: 18px;
+  padding: 12px 24px;
   background: rgba(8, 56, 77, 0.97);
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(16px);
@@ -51,7 +52,7 @@ a:hover {
 .brand {
   color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.55rem;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 0;
 }
@@ -59,9 +60,9 @@ a:hover {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  gap: 14px;
   margin-left: auto;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 700;
 }
 
@@ -74,14 +75,14 @@ a:hover {
 }
 
 .hero {
-  padding: 56px max(24px, calc((100vw - var(--max)) / 2)) 40px;
+  padding: 36px max(22px, calc((100vw - var(--max)) / 2)) 30px;
   background: linear-gradient(135deg, #e9f6f3 0%, #ffffff 56%, #f8f2e8 100%);
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(260px, 0.46fr);
-  gap: 32px;
+  grid-template-columns: minmax(0, 0.95fr) minmax(240px, 0.38fr);
+  gap: 30px;
   align-items: center;
   max-width: var(--max);
   margin: 0 auto;
@@ -90,14 +91,14 @@ a:hover {
 .hero-name {
   margin: 0 0 8px;
   color: var(--deep);
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   font-weight: 800;
 }
 
 .eyebrow {
-  margin: 0 0 14px;
+  margin: 0 0 10px;
   color: var(--kelp);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -111,37 +112,37 @@ h3 {
 }
 
 h1 {
-  max-width: 720px;
+  max-width: 620px;
   margin: 0;
-  font-size: clamp(2rem, 4.6vw, 3.65rem);
+  font-size: clamp(1.7rem, 3.2vw, 2.65rem);
 }
 
 h2 {
-  margin: 0 0 18px;
-  font-size: clamp(1.6rem, 2.7vw, 2.15rem);
+  margin: 0 0 12px;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
 }
 
 h3 {
-  margin: 0 0 8px;
-  font-size: 1.2rem;
+  margin: 0 0 6px;
+  font-size: 1.05rem;
 }
 
 .lead {
-  max-width: 680px;
-  margin: 22px 0 0;
+  max-width: 600px;
+  margin: 18px 0 0;
   color: #34444a;
-  font-size: clamp(1rem, 1.35vw, 1.12rem);
+  font-size: clamp(1rem, 1.1vw, 1.05rem);
 }
 
 .portrait-card {
   justify-self: end;
-  width: min(100%, 380px);
+  width: min(100%, 320px);
   margin: 0;
   overflow: hidden;
   background: linear-gradient(180deg, #0a3348 0%, #09283b 100%);
   color: var(--white);
-  border-radius: 12px;
-  box-shadow: 0 24px 70px rgba(11, 47, 68, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 18px 48px rgba(11, 47, 68, 0.18);
 }
 
 .portrait-card img {
@@ -153,7 +154,7 @@ h3 {
 .portrait-card figcaption,
 .portrait-card p {
   margin: 0;
-  padding: 16px 18px;
+  padding: 12px 14px;
   color: var(--white);
 }
 
@@ -162,7 +163,7 @@ h3 {
   margin-bottom: 2px;
   color: var(--white);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.38rem;
+  font-size: 1.12rem;
   font-weight: 800;
   line-height: 1.15;
 }
@@ -171,15 +172,15 @@ h3 {
 .button-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
+  gap: 10px;
+  margin-top: 24px;
 }
 
 .button {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
-  padding: 10px 16px;
+  min-height: 38px;
+  padding: 8px 13px;
   color: var(--white);
   background: var(--sea);
   border-radius: 8px;
@@ -193,7 +194,7 @@ h3 {
 }
 
 .section {
-  padding: 50px max(24px, calc((100vw - var(--max)) / 2));
+  padding: 42px max(22px, calc((100vw - var(--max)) / 2));
 }
 
 .section.alt {
@@ -209,7 +210,7 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(280px, 0.28fr);
   justify-content: space-between;
-  gap: 48px;
+  gap: 40px;
 }
 
 .two-column > :first-child {
@@ -224,16 +225,16 @@ h3 {
 .cards {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 18px;
+  gap: 16px;
 }
 
 .card {
   min-height: 100%;
-  padding: 20px;
+  padding: 18px;
   color: var(--ink);
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .card-link {
@@ -243,22 +244,26 @@ h3 {
 .card-link:hover {
   color: var(--ink);
   border-color: var(--sea);
-  box-shadow: 0 14px 34px rgba(18, 60, 85, 0.12);
+  box-shadow: 0 10px 26px rgba(18, 60, 85, 0.1);
+}
+
+.card p {
+  font-size: 0.84rem;
+  line-height: 1.42;
 }
 
 .subtheme-card {
-  margin: 22px 0 18px;
-  padding: 16px 18px;
-  background: var(--surface-blue);
-  border: 1px solid var(--line);
-  border-left: 5px solid var(--sea);
-  border-radius: 12px;
+  margin: 20px 0 16px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
 }
 
 .subtheme-card h3 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--muted);
-  font-size: 1.08rem;
+  font-size: 1rem;
 }
 
 .subtheme-card p {
@@ -277,8 +282,8 @@ h3 {
 .visual-strip {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 22px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 figure {
@@ -290,7 +295,7 @@ figure video {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   border: 1px solid var(--line);
   background: var(--white);
 }
@@ -306,10 +311,10 @@ figure video {
 }
 
 figcaption {
-  margin-top: 10px;
+  margin-top: 8px;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: 0.84rem;
+  line-height: 1.42;
 }
 
 figcaption p {
@@ -322,9 +327,9 @@ figcaption p {
 
 .image-credit {
   display: block;
-  margin-top: 4px;
+  margin-top: 3px;
   color: rgba(217, 239, 235, 0.68);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   line-height: 1.35;
 }
 
@@ -343,14 +348,14 @@ figcaption p {
 }
 
 .wide-figure {
-  width: min(100%, 860px);
-  margin: 24px auto 30px;
+  width: min(100%, 800px);
+  margin: 22px auto 28px;
 }
 
 .wide-figure img,
 .wide-figure video {
   width: 100%;
-  max-height: 70vh;
+  max-height: 62vh;
   object-fit: contain;
 }
 
@@ -362,8 +367,8 @@ figcaption p {
 .theme-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin: 24px 0 32px;
+  gap: 14px;
+  margin: 22px 0 28px;
 }
 
 .theme-gallery img,
@@ -379,7 +384,7 @@ figcaption p {
 
 .paired-gallery figure {
   display: grid;
-  grid-template-rows: minmax(280px, 30vw) auto;
+  grid-template-rows: minmax(210px, 24vw) auto;
 }
 
 .paired-gallery img,
@@ -391,22 +396,28 @@ figcaption p {
 
 .stat-list {
   display: grid;
-  gap: 14px;
+  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .stat-list li {
-  padding: 14px;
+  padding: 13px;
   border-left: 4px solid var(--deep);
   background: var(--surface);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.stat-list li > strong {
+  font-size: 0.9rem;
 }
 
 .publication-list,
 .timeline {
   display: grid;
-  gap: 18px;
+  gap: 16px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -414,7 +425,7 @@ figcaption p {
 
 .publication-list li,
 .timeline li {
-  padding-bottom: 18px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -425,30 +436,30 @@ figcaption p {
 
 .meta {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.86rem;
   font-weight: 700;
 }
 
 .page {
-  width: min(var(--max), calc(100% - 48px));
+  width: min(var(--max), calc(100% - 44px));
   max-width: var(--max);
   margin: 0 auto;
-  padding: 56px 0;
+  padding: 44px 0;
 }
 
 .page h1 {
   max-width: 100%;
-  margin-bottom: 18px;
-  font-size: clamp(2.15rem, 4.6vw, 3.75rem);
+  margin-bottom: 14px;
+  font-size: clamp(1.75rem, 3.2vw, 2.65rem);
 }
 
 .page h2 {
-  margin-top: 48px;
-  padding: 14px 18px;
+  margin-top: 44px;
+  padding: 7px 0 8px 12px;
   color: var(--deep);
-  background: linear-gradient(90deg, var(--surface-blue) 0%, rgba(255, 255, 255, 0) 100%);
-  border-left: 5px solid var(--sea);
-  border-radius: 12px;
+  background: transparent;
+  border-left: 3px solid var(--sea);
+  border-radius: 0;
 }
 
 .page ul {
@@ -458,16 +469,16 @@ figcaption p {
 .course-columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
-  margin: 18px 0 34px;
+  gap: 18px;
+  margin: 16px 0 28px;
 }
 
 .course-columns section {
-  padding: 22px;
+  padding: 16px;
 }
 
 .course-columns h3 {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .course-columns ul {
@@ -475,7 +486,7 @@ figcaption p {
 }
 
 .site-footer {
-  padding: 28px max(24px, calc((100vw - var(--max)) / 2));
+  padding: 20px max(22px, calc((100vw - var(--max)) / 2));
   color: var(--muted);
   border-top: 1px solid var(--line);
 }
@@ -485,7 +496,7 @@ figcaption p {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 12px 18px;
+  gap: 10px 14px;
   max-width: var(--max);
   margin: 0 auto;
 }
@@ -498,7 +509,7 @@ figcaption p {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 12px 18px;
+  gap: 10px 14px;
   margin-left: auto;
 }
 
@@ -520,7 +531,7 @@ figcaption p {
   }
 
   .hero {
-    padding-top: 48px;
+    padding-top: 34px;
   }
 
   .hero-grid,
@@ -547,8 +558,8 @@ figcaption p {
 
 .carousel {
   position: relative;
-  width: min(100%, 900px);
-  margin: 24px auto 30px;
+  width: min(100%, 800px);
+  margin: 22px auto 28px;
 }
 
 .carousel figure {
@@ -557,12 +568,12 @@ figcaption p {
 
 .carousel img,
 .carousel video {
-  max-height: 520px;
+  max-height: 440px;
   object-fit: contain;
 }
 
 .intro-carousel {
-  width: min(100%, 640px);
+  width: min(100%, 720px);
 }
 
 .intro-carousel img,
@@ -638,5 +649,5 @@ figcaption p {
 }
 
 .tech-strip {
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
