@@ -9,7 +9,7 @@ description: "Research program of Anh H. Pham."
 
 # Research
 
-{% include carousel.html items=site.data.research.intro.carousel.items label=site.data.research.intro.carousel.label %}
+{% include carousel.html items=site.data.research.intro.carousel.items label=site.data.research.intro.carousel.label class="intro-carousel research-intro-carousel" %}
 
 {% for paragraph in site.data.research.intro.paragraphs %}
 {{ paragraph }}

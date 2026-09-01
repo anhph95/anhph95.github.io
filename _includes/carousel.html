@@ -1,7 +1,7 @@
 {% assign slides = include.items %}
 {% assign label = include.label | default: "image" %}
 
-<div class="carousel" data-carousel>
+<div class="carousel{% if include.class %} {{ include.class }}{% endif %}" data-carousel>
   <button class="carousel-button prev" type="button" data-prev aria-label="Previous {{ label }}">‹</button>
 
   {% for item in slides %}

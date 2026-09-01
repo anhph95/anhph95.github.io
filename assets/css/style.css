@@ -343,13 +343,14 @@ figcaption p {
 }
 
 .wide-figure {
-  margin: 24px 0 30px;
+  width: min(100%, 860px);
+  margin: 24px auto 30px;
 }
 
 .wide-figure img,
 .wide-figure video {
   width: 100%;
-  height: auto;
+  max-height: 70vh;
   object-fit: contain;
 }
 
@@ -557,6 +558,18 @@ figcaption p {
 .carousel img,
 .carousel video {
   max-height: 520px;
+  object-fit: contain;
+}
+
+.intro-carousel {
+  width: min(100%, 640px);
+}
+
+.intro-carousel img,
+.intro-carousel video {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  height: auto;
   object-fit: contain;
 }
 
