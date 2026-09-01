@@ -110,7 +110,9 @@ sections:
             caption: >-
               The Amazon River Plume forming a moving mosaic of low-salinity plume water and oceanic water. This gradient creates distinct habitats that favor different phytoplankton groups. (<a href="https://doi.org/10.3389/fmars.2024.1287497" target="_blank" rel="noopener noreferrer">Pham et al. 2024</a>)
 
-          - src: /assets/media/north-atlantic-surface-velocity.gif
+          - type: video
+            src: /assets/media/north-atlantic-surface-velocity.mp4
+            poster: /assets/media/north-atlantic-surface-velocity-poster.jpg
             alt: Animated North Atlantic sea surface velocity with major currents and eddies.
             caption: >-
               North Atlantic surface velocity shows currents, eddies, and retroflection regions that transport and reshape water masses. These circulation features help explain how plankton communities are mixed, separated, and redistributed. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
