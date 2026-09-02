@@ -1,43 +1,22 @@
 intro:
-  carousel:
-    label: teaching image
-    items:
-      - src: /assets/media/flying-fish.jpg
-        alt: Flying fish photographed at sea.
-        caption: Field encounters make marine science tangible and memorable for students.
-      - src: /assets/media/fishing-vessel.jpg
-        alt: Fishing vessel at sunset.
-        caption: Working seascapes help students connect ocean ecosystems with human activity, observation, and environmental decision-making.
-      - src: /assets/media/seabirds.jpg
-        alt: Seabirds over the ocean.
-        caption: Visible marine life provides an entry point for discussing food webs, observation, and evidence.
-      - src: /assets/media/whale.jpg
-        alt: Whale at the ocean surface.
-        caption: Large marine organisms help connect plankton dynamics to broader ecosystem questions.
-      - src: /assets/media/wind-farm-sunset.jpg
-        alt: Offshore wind farm at sunset over the ocean.
-        caption: Ocean science teaching connects ecosystems, climate, technology, and human decisions.
-      - src: /assets/media/really-nice-sunset.jpg
-        alt: Sunset over the ocean from a research vessel.
-        caption: Field experiences help students connect ocean observations with the changing environments behind the data.
   paragraphs:
-    - I teach biology, ecology, oceanography, and data analysis through real environmental examples. My courses and mentoring help students connect organisms, ecosystems, observations, and data so they can ask clear questions and explain scientific evidence with confidence.
+    - We teach biology, ecology, oceanography, and environmental data analysis through real examples from marine systems. Our teaching and mentoring help students connect organisms, ecosystems, observations, and data so they can ask clear questions, evaluate evidence, and communicate scientific results with confidence.
 
 sections:
-  - title: Teaching Areas
+  - title: Teaching and Training Areas
     blocks:
       - kind: paragraph
         text: >-
-          My teaching spans introductory biology, organismal biology, ecology, biological oceanography, environmental science,
-          statistics, and data science. Students will work with examples from marine and environmental systems, including
+          Our teaching spans introductory biology, organismal biology, ecology, biological oceanography, environmental science,
+          statistics, and data science. Students work with examples from marine and environmental systems, including
           plankton communities, oceanographic time series, field observations, microscopy images, and satellite products.
       - kind: paragraph
         text: >-
-          In class, students will practice moving between ecological concepts, quantitative reasoning, and scientific
-          communication. The goal is to understand how observations become evidence and how evidence supports an ecological
+          Courses and training activities emphasize movement between ecological concepts, quantitative reasoning, and scientific
+          communication. The goal is to understand how observations become evidence, and how evidence supports an ecological
           interpretation.
 
-  - title: Learning With Data
+  - title: Data-Driven Learning
     blocks:
       - kind: paragraph
         text: >-
@@ -46,7 +25,7 @@ sections:
           also what the result means biologically.
       - kind: paragraph
         text: >-
-          I also develop coding-training materials, including the
+          We also develop coding-training materials, including the
           <a href="https://github.com/anhph95/R_stats">R_stats</a> repository, for learners building confidence with
           statistics, ecological data analysis, and reproducible research.
 
@@ -54,16 +33,16 @@ sections:
     blocks:
       - kind: paragraph
         text: >-
-          I mentor students through structured, hands-on research experiences. Trainees learn how to organize data, document
+          We mentor students through structured, hands-on research experiences. Trainees learn how to organize data, document
           decisions, evaluate uncertainty, make clear figures, and communicate results to audiences with different
           backgrounds.
       - kind: paragraph
         text: >-
-          Because my research connects ecology, oceanography, computation, and observing technology, students are encouraged to
+          Because the research program connects ecology, oceanography, computation, and observing technology, students are encouraged to
           build fluency across disciplines while developing ownership of their own scientific questions.
 
 courses:
-  - title: Courses I Have Taught
+  - title: Courses Taught
     items:
       - Introductory Biology
       - Organismal Biology
@@ -71,7 +50,7 @@ courses:
       - Ecology
       - Biostatistics
       - Experimental Design and Statistical Methods
-  - title: Courses I Am Prepared to Teach
+  - title: Courses We Can Support
     items:
       - Marine Biology
       - Environmental Science
@@ -83,4 +62,4 @@ courses:
 outreach:
   title: Outreach
   paragraphs:
-    - My outreach work focuses on making ocean science and ocean observing systems easier to explore. I use visual tools, field examples, and interactive data products to help students and broader audiences connect marine ecosystems, climate, technology, and environmental change.
+    - Outreach activities focus on making ocean science and ocean observing systems easier to explore. We use visual tools, field examples, and interactive data products to help students and broader audiences connect marine ecosystems, climate, technology, and environmental change.

@@ -1,5 +1,5 @@
 hero:
-  eyebrow: Biological Oceanography · Community Dynamics · Data Science
+  eyebrow: Biological Oceanography · Plankton Ecology · Data Science
   title: AI-empowered insight into dynamic marine ecosystems.
   lead: We study how ocean physics, observing technologies, and artificial intelligence can reveal the structure and variability of planktonic ecosystems in a changing ocean. Our work connects field observations, autonomous platforms, remote sensing, imaging systems, and computational analysis to understand marine communities across scales.
   carousel:
@@ -85,5 +85,5 @@ selected_contact:
   right:
     title: Contact
     paragraphs:
-      - 'Email: [anh.pham@whoi.edu](mailto:anh.pham@whoi.edu)'
-      - '[GitHub](https://github.com/anhph95)<br>[ORCID](https://orcid.org/0000-0001-7827-6558)<br>[Google Scholar](https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en)<br>[LinkedIn](https://www.linkedin.com/in/huyanhpham/)'
+      - 'Email [anh.pham@whoi.edu](mailto:anh.pham@whoi.edu)'
+      - 'Woods Hole Oceanographic Institution, Mail Stop 32<br>266 Woods Hole Road<br>Woods Hole, MA 02543'

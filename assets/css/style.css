@@ -416,6 +416,13 @@ h3 {
   max-width: 100%;
 }
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin-top: 2px;
+}
+
 .two-column > :first-child {
   justify-self: start;
 }
@@ -748,25 +755,14 @@ figcaption p {
 }
 
 .footer-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px 14px;
+  width: 100%;
   max-width: var(--max);
   margin: 0 auto;
+  text-align: center;
 }
 
 .footer-inner p {
   margin: 0;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 10px 14px;
-  margin-left: auto;
 }
 
 @media (max-width: 920px) {

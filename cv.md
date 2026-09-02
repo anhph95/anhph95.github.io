@@ -9,6 +9,6 @@ description: "Download the full CV for Anh H. Pham."
 
 # CV
 
-<a class="button" href="{{ '/assets/files/Anh-H-Pham-CV.pdf' | relative_url }}" download>Download full CV</a>
+<a class="button" href="{{ '/assets/files/CV-apham.pdf' | relative_url }}" download>Download full CV</a>
 
 </article>
