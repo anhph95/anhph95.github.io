@@ -2,7 +2,7 @@
 layout: default
 title: Home
 seo_title: "Anh H. Pham | Computational Oceanography"
-description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanographic Institution studying plankton ecology, biological oceanography, ocean observing systems, and AI-enabled marine ecosystem analysis."
+description: "Anh H. Pham is a computational oceanographer at Woods Hole Oceanographic Institution studying plankton community dynamics, biological oceanography, ocean observing systems, and AI-enabled marine ecosystem analysis."
 ---
 
 {% include home-hero.html %}

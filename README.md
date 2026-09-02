@@ -11,6 +11,8 @@ editing the main page templates.
 ### Main files
 
 - Edit homepage content in `_data/home.yml`.
+- Edit people records in `_data/people/`; profile pages in `people/` are thin
+  page stubs that point to those records.
 - Edit research-page content in `_research/`.
 - Edit publications and presentations in `_data/publications.yml`.
 - Edit teaching, mentoring, courses, outreach, and teaching slideshow content in
@@ -40,7 +42,7 @@ research page, edit one of these files:
 ```text
 _research/hab.md
 _research/biogeography.md
-_research/ecology.md
+_research/community.md
 _research/technologies.md
 _research/directions.md
 ```
@@ -70,6 +72,73 @@ Write the full research page here.
 The main `/research/` page scans `_research/` automatically, sorts by `order`,
 and uses `title`, `summary`, `image`, and `image_alt` to build the browsing
 cards.
+
+### Add or edit a lab member
+
+Member information lives in one data record per person in `_data/people/`. The
+matching Markdown file in `people/` is only a lightweight page stub that loads
+that data record and renders it.
+
+To edit an existing member, edit the matching data file:
+
+```text
+_data/people/apham.yml
+```
+
+To add a new member:
+
+1. Create one new data file in `_data/people/`, using a short member ID:
+
+```yaml
+id: member-id
+name: Future Member Name
+portrait: /assets/media/portrait-member-id.jpg
+url: /people/member-id/
+interests:
+  - Interest One
+  - Interest Two
+  - Interest Three
+position: Current position, department or program, institution
+education:
+  - Degree, Program, Institution, Year
+  - Degree, Program, Institution, Year
+paragraphs:
+  - First profile paragraph.
+  - Second profile paragraph.
+```
+
+2. Add the portrait image to `assets/media/`.
+
+3. Copy `people/member-template.md` to `people/member-id.md`, then update only
+   the front matter and `person_id` value:
+
+```markdown
+---
+layout: default
+title: Future Member Name
+permalink: /people/member-id/
+description: "Profile of Future Member Name."
+---
+
+{% assign person_id = "member-id" %}
+{% assign person = site.data.people[person_id] %}
+```
+
+Keep the rest of the copied page template unchanged unless the profile layout
+itself needs to change.
+
+4. Add the member ID to the homepage People section in `_data/home.yml`:
+
+```yaml
+about:
+  title: People
+  people:
+    - apham
+    - member-id
+```
+
+The homepage People card and full profile page both read from the same
+`_data/people/member-id.yml` record.
 
 ### Add a plot or photo
 

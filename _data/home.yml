@@ -1,7 +1,7 @@
 hero:
-  eyebrow: Biological Oceanography · Plankton Ecology · Data Science
+  eyebrow: Biological Oceanography · Community Dynamics · Data Science
   title: AI-empowered insight into dynamic marine ecosystems.
-  lead: I develop data-driven approaches for studying planktonic ecosystems in a changing ocean, linking field observations, ocean observing technologies, and artificial intelligence to reveal patterns across scales.
+  lead: We study how ocean physics, observing technologies, and artificial intelligence can reveal the structure and variability of planktonic ecosystems in a changing ocean. Our work connects field observations, autonomous platforms, remote sensing, imaging systems, and computational analysis to understand marine communities across scales.
   carousel:
     label: homepage landscape
     items:
@@ -24,28 +24,9 @@ hero:
       url: /publications/
       variant: secondary
 about:
-  left:
-    title: About
-    paragraphs:
-      - I am a computational oceanographer studying how physical ocean dynamics shape marine planktonic communities across coastal, shelf, and basin-scale environments. My work integrates field observations, shipboard and autonomous-platform datasets, satellite products, imaging systems, and machine-learning workflows to understand ecological variability that is difficult to capture with any single observing approach.
-      - At Woods Hole Oceanographic Institution, I use high-resolution observations and deep learning approaches to study plankton community variability on the Northeast U.S. Shelf. I also develop data-processing tools, quality-control workflows, and interactive dashboards that make complex ocean observing datasets easier to explore, synthesize, and use during field operations.
-  right:
-    portrait:
-      src: /assets/media/portrait.jpg
-      alt: Anh H. Pham at sea.
-      caption: <span class="portrait-name">Dr. Anh Huy Pham</span>
-    stats:
-      - label: Current role
-        value: |-
-          Postdoctoral Investigator,
-          Biology Department,
-          [Woods Hole Oceanographic Institution](https://www.whoi.edu/)
-      - label: Education
-        value: |-
-          Ph.D. Ocean Science and Engineering,
-          [Georgia Institute of Technology](https://ocean.gatech.edu/), 2024
-          S.B. Biotechnology,
-          [International University](https://bt.hcmiu.edu.vn/), 2018
+  title: People
+  people:
+    - apham
 
 observation_technologies:
   eyebrow: Observation Technologies
@@ -87,9 +68,9 @@ research_program:
     - title: Plankton Biogeography
       url: /research/biogeography/
       summary: Plankton habitats shift with currents, seasons, river plumes, and ocean fronts. We study how these moving environments organize marine life across coastal and open-ocean regions.
-    - title: Plankton Ecology
-      url: /research/ecology/
-      summary: Plankton species interact, co-occur, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
+    - title: Community Dynamics
+      url: /research/community/
+      summary: Plankton communities assemble, turn over, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
     - title: Ocean Observing Technologies
       url: /research/technologies/
       summary: Long-term plankton research depends on consistent observations across cruises, platforms, and changing technologies. We develop data and visualization tools that keep ecological questions connected.

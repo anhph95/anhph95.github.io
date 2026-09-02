@@ -226,46 +226,6 @@ h3 {
   text-shadow: 0 2px 22px rgba(6, 24, 34, 0.42);
 }
 
-.portrait-card {
-  justify-self: end;
-  width: min(100%, 320px);
-  margin: 0;
-  overflow: hidden;
-  background: var(--white);
-  color: var(--deep);
-  border-radius: 10px;
-  box-shadow: 0 18px 48px rgba(11, 47, 68, 0.18);
-}
-
-.about-portrait {
-  justify-self: start;
-  width: min(100%, 260px);
-  margin: 0;
-}
-
-.portrait-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.portrait-card figcaption,
-.portrait-card p {
-  margin: 0;
-  padding: 12px 14px;
-  color: var(--deep);
-}
-
-.portrait-name {
-  display: block;
-  margin-bottom: 2px;
-  color: var(--deep);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.12rem;
-  font-weight: 800;
-  line-height: 1.15;
-}
-
 .hero-links,
 .button-row {
   display: flex;
@@ -322,23 +282,138 @@ h3 {
   gap: 40px;
 }
 
-.about-section > h2 {
+.people-section > h2 {
   margin-bottom: 20px;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: minmax(180px, 0.24fr) minmax(0, 0.5fr) minmax(260px, 0.26fr);
-  align-items: start;
-  gap: 34px;
-}
-
-.about-grid .about-copy {
-  justify-self: stretch;
 }
 
 .about-copy p:first-child {
   margin-top: 0;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+  justify-content: center;
+  gap: 22px;
+}
+
+.person-card {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 0;
+  color: var(--deep);
+  background: transparent;
+  text-align: center;
+}
+
+.person-card img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-card-name {
+  color: var(--deep);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.person-card:hover .person-card-name,
+.person-card:focus-visible .person-card-name {
+  color: var(--sea);
+}
+
+.person-interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.person-interests span:not(:last-child)::after {
+  content: ",";
+}
+
+.people-list {
+  display: grid;
+  gap: 26px;
+  margin-top: 24px;
+}
+
+.people-list-item {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.people-list-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.people-list-body {
+  display: grid;
+  gap: 8px;
+}
+
+.people-list-body h2 {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border-left: 0;
+}
+
+.people-list-body p,
+.people-list-summary {
+  margin: 0;
+}
+
+.people-list-summary {
+  color: var(--muted);
+}
+
+.people-list-link {
+  width: fit-content;
+  font-weight: 800;
+}
+
+.person-page-header {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  gap: 30px;
+  align-items: center;
+  margin: 18px 0 30px;
+}
+
+.person-page-portrait {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.person-page-meta {
+  display: grid;
+  gap: 0;
+}
+
+.person-page-meta p,
+.person-page-about p {
+  margin: 0;
+}
+
+.person-page-about {
+  display: grid;
+  gap: 14px;
+  max-width: 100%;
 }
 
 .two-column > :first-child {
@@ -724,7 +799,8 @@ figcaption p {
   }
 
   .two-column,
-  .about-grid,
+  .person-page-header,
+  .people-list-item,
   .cards,
   .research-listing,
   .theme-gallery,
@@ -778,10 +854,6 @@ figcaption p {
   .two-column > :first-child,
   .two-column > :last-child {
     justify-self: stretch;
-  }
-
-  .about-portrait {
-    margin-right: 0;
   }
 }
 

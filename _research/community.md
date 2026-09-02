@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Plankton Ecology
-summary: Plankton species interact, co-occur, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
+title: Community Dynamics
+summary: Plankton communities assemble, turn over, and respond together to changing ocean conditions. We study how these community patterns reorganize across water masses, seasons, and years.
 image: /assets/media/ifcb-example-image-sosik-lab-whoi.png
 image_alt: Example Imaging FlowCytobot plankton images from the Sosik Lab at WHOI.
 order: 3
-permalink: /research/ecology/
+permalink: /research/community/
 ifcb_figure:
   src: /assets/media/ifcb-example-image-sosik-lab-whoi.png
   alt: Example Imaging FlowCytobot plankton images from the Sosik Lab at WHOI.
@@ -19,14 +19,14 @@ community_gallery:
   - src: /assets/media/ifcb-topic-modeling.png
     alt: IFCB topic-modeling figure showing plankton community structure across depth and latitude.
     caption: >-
-      A natural-language-processing approach, similar to Latent Dirichlet Allocation (LDA), represents each plankton sample as a mixture of recurring assemblages. This is useful for plankton ecology because samples often contain overlapping communities rather than clean, mutually exclusive groups. Topic modeling can reveal which organisms tend to appear together across depth, latitude, and environmental gradients while preserving that mixture structure.
+      A natural-language-processing approach, similar to Latent Dirichlet Allocation (LDA), represents each plankton sample as a mixture of recurring assemblages. This is useful for studying community dynamics because samples often contain overlapping communities rather than clean, mutually exclusive groups. Topic modeling can reveal which organisms tend to appear together across depth, latitude, and environmental gradients while preserving that mixture structure.
 ---
 
 <article class="page research-page" markdown="1">
 
 # {{ page.title }}
 
-Plankton ecology examines how plankton grow, interact, co-occur, and respond to changing ocean conditions. Plankton rarely occur as isolated species; they form communities whose members compete, coexist, respond to shared environmental conditions, and support different parts of the marine food web. The ecological role of a plankton community depends not only on how much biomass is present, but also on which organisms make up that biomass. A bloom dominated by one group can have different consequences for food webs, carbon export, nutrient cycling, or harmful bloom risk than the same amount of biomass distributed across many taxa. High-frequency plankton imaging makes it possible to study communities as dynamic assemblages that reorganize across water masses, seasons, and years, so we examine both "how much is there" and "who is there" as complementary signals of ecosystem change.
+Community dynamics examines how plankton assemblages form, interact, turn over, and respond to changing ocean conditions. Plankton rarely occur as isolated species; they form communities whose members compete, coexist, respond to shared environmental conditions, and support different parts of the marine food web. The ecological role of a plankton community depends not only on how much biomass is present, but also on which organisms make up that biomass. A bloom dominated by one group can have different consequences for food webs, carbon export, nutrient cycling, or harmful bloom risk than the same amount of biomass distributed across many taxa. High-frequency plankton imaging makes it possible to study communities as dynamic assemblages that reorganize across water masses, seasons, and years, so we examine both "how much is there" and "who is there" as complementary signals of ecosystem change.
 
 {% include figure.html item=page.ifcb_figure class="wide-figure" %}
 
