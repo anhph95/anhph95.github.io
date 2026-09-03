@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article class="page person-page" markdown="1">
+
+<h1>{{ page.name | default: page.title }}</h1>
+
+<div class="person-page-header" markdown="1">
+{% if page.portrait %}
+<img class="person-page-portrait" src="{{ page.portrait | relative_url }}" alt="{{ page.name | default: page.title }}">
+{% endif %}
+
+<div class="person-page-meta">
+{% if page.position %}
+<p><strong>Position:</strong><br>{{ page.position | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+{% endif %}
+
+{% if page.education %}
+<p><strong>Education:</strong><br>{% for item in page.education %}{{ item | markdownify | remove: '<p>' | remove: '</p>' }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+{% endif %}
+
+{% if page.interests %}
+<p><strong>Interest:</strong><br>{% for interest in page.interests %}{{ interest }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+{% endif %}
+
+{% if page.links %}
+<nav class="profile-links" aria-label="{{ page.name | default: page.title }} profile links">
+  {% for link in page.links %}
+  <a href="{{ link.url | relative_url }}"{% if link.download %} download{% endif %}>{{ link.label }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+</div>
+</div>
+
+<div class="person-page-about" markdown="1">
+{{ content }}
+</div>
+
+</article>

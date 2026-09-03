@@ -1,7 +1,7 @@
 hero:
   eyebrow: Biological Oceanography · Plankton Ecology · Data Science
   title: AI-empowered insight into dynamic marine ecosystems.
-  lead: We study how ocean physics, observing technologies, and artificial intelligence can reveal the structure and variability of planktonic ecosystems in a changing ocean. Our work connects field observations, autonomous platforms, remote sensing, imaging systems, and computational analysis to understand marine communities across scales.
+  lead: We leverage advanced ocean-observing technologies and artificial intelligence to understand how plankton communities respond to a changing ocean. Our work integrates field observations, autonomous platforms, remote sensing, imaging systems, and computational analyses to examine marine community dynamics across spatial and temporal scales.
   carousel:
     label: homepage landscape
     items:
@@ -26,8 +26,6 @@ hero:
 about:
   title: People
   class: alt
-  people:
-    - apham
 
 observation_technologies:
   eyebrow: Observation Technologies

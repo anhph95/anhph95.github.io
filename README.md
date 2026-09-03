@@ -4,16 +4,15 @@ Personal researcher website for GitHub Pages.
 
 ## Updating site content
 
-Most site content is stored in data files so that text, links, publications,
-presentations, plots, photos, videos, and slideshow items can be updated without
-editing the main page templates.
+Most overview-page content is stored in data files, while detail pages live in
+Jekyll collections. This keeps repeated page templates separate from editable
+research and people content.
 
 ### Main files
 
 - Edit homepage content in `_data/home.yml`.
-- Edit people records in `_data/people/`; profile pages in `people/` are thin
-  page stubs that point to those records.
 - Edit research-page content in `_research/`.
+- Edit people profile content in `_people/`.
 - Edit publications and presentations in `_data/publications.yml`.
 - Edit teaching, mentoring, courses, outreach, and teaching slideshow content in
   `_data/teaching.yml`.
@@ -75,25 +74,26 @@ cards.
 
 ### Add or edit a lab member
 
-Member information lives in one data record per person in `_data/people/`. The
-matching Markdown file in `people/` is only a lightweight page stub that loads
-that data record and renders it.
+People pages are Jekyll collection files in `_people/`. Each file contains the
+profile metadata in front matter and the profile biography in Markdown body
+text, matching the way research detail pages are organized.
 
-To edit an existing member, edit the matching data file:
+To edit an existing member, edit the matching collection file:
 
 ```text
-_data/people/apham.yml
+_people/anhph.md
 ```
 
-To add a new member:
+To add a new member, create one new Markdown file in `_people/`:
 
-1. Create one new data file in `_data/people/`, using a short member ID:
-
-```yaml
-id: member-id
+```markdown
+---
+layout: person
 name: Future Member Name
+title: Future Member Name
+description: "Profile of Future Member Name."
 portrait: /assets/media/portrait-member-id.jpg
-url: /people/member-id/
+order: 2
 interests:
   - Interest One
   - Interest Two
@@ -102,43 +102,20 @@ position: Current position, department or program, institution
 education:
   - Degree, Program, Institution, Year
   - Degree, Program, Institution, Year
-paragraphs:
-  - First profile paragraph.
-  - Second profile paragraph.
-```
-
-2. Add the portrait image to `assets/media/`.
-
-3. Copy `people/member-template.md` to `people/member-id.md`, then update only
-   the front matter and `person_id` value:
-
-```markdown
----
-layout: default
-title: Future Member Name
-permalink: /people/member-id/
-description: "Profile of Future Member Name."
+links:
+  - label: Google Scholar
+    url: https://example.com/
 ---
 
-{% assign person_id = "member-id" %}
-{% assign person = site.data.people[person_id] %}
+Write the profile biography here.
+
+Add a second paragraph when needed.
 ```
 
-Keep the rest of the copied page template unchanged unless the profile layout
-itself needs to change.
-
-4. Add the member ID to the homepage People section in `_data/home.yml`:
-
-```yaml
-about:
-  title: People
-  people:
-    - apham
-    - member-id
-```
-
-The homepage People card and full profile page both read from the same
-`_data/people/member-id.yml` record.
+The member URL is generated from the filename, so `_people/member-id.md` becomes
+`/people/member-id/`. The homepage People section scans `_people/`
+automatically, sorts by `order`, and uses `name`, `portrait`, and `interests`
+to build the profile cards.
 
 ### Add a plot or photo
 

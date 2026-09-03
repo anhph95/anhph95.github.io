@@ -1,0 +1,31 @@
+---
+layout: person
+title: Dr. Anh Huy Pham
+name: Dr. Anh Huy Pham
+description: "Profile of Dr. Anh Huy Pham."
+portrait: /assets/media/portrait-apham.jpg
+order: 1
+interests:
+  - Computer Vision
+  - Artificial Intelligence
+  - Remote Sensing
+position: |-
+  Postdoctoral Investigator, Biology Department, [Woods Hole Oceanographic Institution](https://www.whoi.edu/)
+education:
+  - "[Ph.D. Ocean Science and Engineering](https://ocean.gatech.edu/), School of Biological Sciences, Georgia Institute of Technology, 2024"
+  - "[S.B. Biotechnology](https://bt.hcmiu.edu.vn/), School of Biotechnology, Ho Chi Minh City International University, 2018"
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=XSOR-4EAAAAJ&hl=en
+  - label: GitHub
+    url: https://github.com/anhph95
+  - label: ORCID
+    url: https://orcid.org/0000-0001-7827-6558
+  - label: CV
+    url: /assets/files/CV-apham.pdf
+    download: true
+---
+
+I am a computational oceanographer studying how physical ocean dynamics shape marine planktonic communities across coastal, shelf, and basin-scale environments. My work integrates field observations, shipboard and autonomous-platform datasets, satellite products, imaging systems, and machine-learning workflows to understand ecological variability that is difficult to capture with any single observing approach.
+
+At Woods Hole Oceanographic Institution, I use high-resolution observations and deep learning approaches to study plankton community variability on the Northeast U.S. Shelf. I also develop data-processing tools, quality-control workflows, and interactive dashboards that make complex ocean observing datasets easier to explore, synthesize, and use during field operations.

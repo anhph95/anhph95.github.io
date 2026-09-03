@@ -30,6 +30,9 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  people:
+    output: true
+    permalink: /people/:name/
 
 # Plugins for better features
 plugins:

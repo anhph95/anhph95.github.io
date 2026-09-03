@@ -5,8 +5,8 @@
   <div class="section-inner people-section">
     {% if section.title %}<h2>{{ section.title }}</h2>{% endif %}
     <div class="people-grid">
-      {% for person_id in section.people %}
-      {% assign person = site.data.people[person_id] %}
+      {% assign people_pages = site.people | sort: "order" %}
+      {% for person in people_pages %}
       <a class="person-card" href="{{ person.url | relative_url }}">
         <img src="{{ person.portrait | relative_url }}" alt="{{ person.name }}">
         <span class="person-card-name">{{ person.name }}</span>
