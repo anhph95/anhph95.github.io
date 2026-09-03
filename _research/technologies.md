@@ -21,7 +21,7 @@ machine_learning_gallery:
   - src: /assets/media/shadowgraph-zooplankton-distribution.jpg
     alt: Shadowgraph-derived zooplankton distribution visualization.
     caption: >-
-      Shadowgraph-derived zooplankton detections are mapped along the sampling transect to show where organisms occur in relation to depth and location. This connects individual image detections to spatial patterns in plankton abundance and helps identify layers, hotspots, or habitat associations that would be hard to see from station samples alone. (<a href="https://doi.org/10.1029/2025JC022543" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
+      Shadowgraph-derived zooplankton detections are mapped along the sampling transect to show where organisms occur in relation to depth and location. This connects individual image detections to spatial patterns in plankton abundance and helps identify layers, hotspots, or habitat associations that would be hard to see from station samples alone. (<a href="https://doi.org/10.1002/lno.70388" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
 environment_gallery:
   - src: /assets/media/northeast-us-shelf-physical-properties.jpg
     alt: Northeast U.S. Shelf physical properties and frontal gradients.

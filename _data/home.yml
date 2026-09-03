@@ -25,6 +25,7 @@ hero:
       variant: secondary
 about:
   title: People
+  class: alt
   people:
     - apham
 

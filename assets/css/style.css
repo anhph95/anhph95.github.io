@@ -292,7 +292,7 @@ h3 {
 
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 240px));
   justify-content: center;
   gap: 22px;
 }
@@ -308,14 +308,15 @@ h3 {
 }
 
 .person-card img {
-  width: 128px;
-  height: 128px;
+  width: 168px;
+  height: 168px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .person-card-name {
   color: var(--deep);
+  background: transparent;
   font-weight: 800;
   line-height: 1.2;
 }
@@ -331,8 +332,13 @@ h3 {
   justify-content: center;
   gap: 6px;
   color: var(--muted);
+  background: transparent;
   font-size: 0.76rem;
   line-height: 1.35;
+}
+
+.person-interests span {
+  background: transparent;
 }
 
 .person-interests span:not(:last-child)::after {
