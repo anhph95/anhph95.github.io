@@ -1,8 +1,8 @@
 ---
 layout: person
-title: Dr. Anh Huy Pham
+title: "Dr. Anh Huy Pham: Computational Oceanographer at WHOI"
 name: Dr. Anh Huy Pham
-description: "Profile of Dr. Anh Huy Pham."
+description: "Dr. Anh Huy Pham, also known as Anh H. Pham, is a computational oceanographer and Postdoctoral Investigator at Woods Hole Oceanographic Institution."
 portrait: /assets/media/portrait-apham.jpg
 order: 1
 interests:
