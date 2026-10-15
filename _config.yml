@@ -53,3 +53,6 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+webmaster_verifications:
+  google: "-AXKu_OIXRe4su2qbcW5JpH-Xa9isTdgSVzbBrXevFc"
