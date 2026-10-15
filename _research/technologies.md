@@ -22,6 +22,11 @@ machine_learning_gallery:
     alt: Shadowgraph-derived zooplankton distribution visualization.
     caption: >-
       Shadowgraph-derived zooplankton detections are mapped along the sampling transect to show where organisms occur in relation to depth and location. This connects individual image detections to spatial patterns in plankton abundance and helps identify layers, hotspots, or habitat associations that would be hard to see from station samples alone. (<a href="https://doi.org/10.1002/lno.70388" target="_blank" rel="noopener noreferrer">Pham et al. 2026</a>)
+labeler_figure:
+  src: /assets/media/stingray-labeler.png
+  alt: Stingray Labeler desktop application showing labeled plankton in a shadowgraph image.
+  caption: >-
+    The Stingray Labeler reviewing a verified shadowgraph image. Each box carries its category, verification, the annotator who last changed it, and any model score, while filters by user, category, image state, and box verification help annotators and reviewers work through large image sets. (<a href="https://github.com/WHOIGit/stingray-labeler" target="_blank" rel="noopener noreferrer">GitHub</a>)
 environment_gallery:
   - src: /assets/media/northeast-us-shelf-physical-properties.jpg
     alt: Northeast U.S. Shelf physical properties and frontal gradients.
@@ -51,7 +56,20 @@ We build data-processing pipelines and interactive dashboards for observations f
 ### Machine Learning for Plankton Imaging
 
 We develop end-to-end machine-learning and computer-vision workflows for plankton image data. These workflows help transform large image collections into ecological information about abundance, distribution, community composition, and change through time. The goal is not just to automate image sorting, but to make image streams useful for ecological interpretation. Machine learning is important for plankton imaging because modern instruments can produce millions of images, far beyond what can be reviewed manually. Detection, classification, trait extraction, uncertainty screening, and quality control make it possible to map organisms back onto environmental gradients and ask ecological questions at the scale of cruises, seasons, and observing networks.
+
+A trained model is only one step in that chain. We build the open-source tools around it as one end-to-end computer-vision workflow: **data management** that ties every image and video frame to its time, position, and sensor record; **annotation** tools for building and checking training data; **workflow orchestration** that runs frame timing, detection, classification, and abundance estimation as reproducible, resumable jobs on laptops, shared workstations, or high-performance computing clusters; and **visualization** that places model output back into the cruise dashboard next to the physical and chemical data. The pieces share plain, standard formats (COCO annotations, CSV and Parquet tables), so each tool can also be used on its own or swapped for another.
+
+The Stingray Labeler is the annotation piece. It is a lightweight desktop application for drawing and reviewing bounding boxes on images and directly on frames of survey video, without extracting frames first. It covers the everyday needs of a small computer-vision project: building a labeled dataset from scratch, reviewing and correcting model predictions with their confidence scores, tracking who changed which box and when, combining work from several annotators, and exporting a clean COCO dataset for training. It runs on Windows and Linux, and a standalone Windows build needs no Python installation, so it can be used at sea or by students and collaborators without a programming setup. Although it was built for plankton and particle imagery from towed camera systems, it is general enough for other simple detection tasks in underwater surveys, such as counting fish, benthic organisms, or debris in video transects and photo surveys.
+
+Code for the workflow is openly available:
+
+- <a href="https://github.com/WHOIGit/stingray-labeler" target="_blank" rel="noopener noreferrer">stingray-labeler</a>: bounding-box annotation and review of images and video frames.
+- <a href="https://github.com/WHOIGit/stingray-image-analysis" target="_blank" rel="noopener noreferrer">stingray-image-analysis</a>: video detection, model training, and abundance jobs.
+- <a href="https://github.com/WHOIGit/stingraytools" target="_blank" rel="noopener noreferrer">stingraytools</a>: sensor merging, frame timestamps, and image-to-environment linking.
+- <a href="https://github.com/WHOIGit/stingray-dashboard" target="_blank" rel="noopener noreferrer">stingray-dashboard</a>: interactive exploration of cruise data products.
 </section>
+
+{% include figure.html item=page.labeler_figure class="wide-figure" %}
 
 {% include media-grid.html items=page.machine_learning_gallery class="theme-gallery paired-gallery" %}
 

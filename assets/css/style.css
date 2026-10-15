@@ -537,6 +537,11 @@ h3 {
   margin: 0;
 }
 
+.subtheme-card p + p,
+.subtheme-card ul {
+  margin-top: 10px;
+}
+
 .media-band {
   background: #102632;
   color: var(--white);
